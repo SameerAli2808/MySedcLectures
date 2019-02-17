@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS-winter-Ex02</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <!--*****   Row One - Title *****-->
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <h1 class="display-4">&#8801 Standard</h1>
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+        <!--*****   Row Two - Small display *****-->
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <input type="text" id="display" class="form-control">
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+        <!--*****   Row Three - Big display *****-->       
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <input type="text" id="main" class="form-control">
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+        <!--*****   Row Four - % sqr sq 1/x *****-->
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <button id="percentage" class="btn btn-outline-secondary btn-block">%</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="sqr" class="btn btn-outline-secondary btn-block">&#8730</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="x2" class="btn btn-outline-secondary btn-block">x<sup style="font-size:10px;">2</sup></button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="x1" class="btn btn-outline-secondary btn-block"><sup style="font-size:12px;">1</sup style="font-size:10px;">/<sub>x</sub></button>
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+        <!--*****   Row Five - CE C back / *****-->
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <button id="ce" class="btn btn-outline-secondary btn-block">CE</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="c" class="btn btn-outline-secondary btn-block">C</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="del" class="btn btn-outline-secondary btn-block">&#8676</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="divide" class="btn btn-outline-secondary btn-block spc-font">&#247</button>
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+        <!--*****   Row Six - 7 8 9 X *****-->
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num7" class="btn btn-outline-secondary btn-block num-font digit">7</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num8" class="btn btn-outline-secondary btn-block num-font digit">8</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num9" class="btn btn-outline-secondary btn-block num-font digit">9</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="multiply" class="btn btn-outline-secondary btn-block spc-font">&#215</button>
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+        <!--*****   Row Seven - 4 5 6 - *****-->
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num4" class="btn btn-outline-secondary btn-block num-font digit">4</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num5" class="btn btn-outline-secondary btn-block num-font digit">5</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num6" class="btn btn-outline-secondary btn-block num-font digit">6</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="subtract" class="btn btn-outline-secondary btn-block spc-font">&#8722</button>
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+        <!--*****   Row Eight - 1 2 3 + *****-->
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num1" class="btn btn-outline-secondary btn-block num-font digit">1</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num2" class="btn btn-outline-secondary btn-block num-font digit">2</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num3" class="btn btn-outline-secondary btn-block num-font digit">3</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="summation" class="btn btn-outline-secondary btn-block spc-font">+</button>
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+        <!--*****   Row Nine - +/- 0 . = *****-->
+        <div class="row">
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+            <div class="col" style="background-color:lavender;">
+                <button id="plusminus" class="btn btn-outline-secondary btn-block spc-font">&#177</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="num0" class="btn btn-outline-secondary btn-block num-font digit">0</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="point" class="btn btn-outline-secondary btn-block num-font">&#8729</button>
+            </div>
+            <div class="col" style="background-color:lavender;">
+                <button id="equil" class="btn btn-outline-secondary btn-block spc-font">=</button>
+            </div>
+            <div class="col-0 col-sm-1 col-md-2 col-lg-3 col-xl-4"></div>
+        </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- <script src="jquery/jquery-3.3.1.js"></script> -->
+    <script src="js-winter-02.js"></script>
+</body>
+</html>
