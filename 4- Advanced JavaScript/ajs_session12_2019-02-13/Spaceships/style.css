@@ -1,0 +1,60 @@
+body {
+    background-image: url('./assets/home.jpg');;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#body, thead{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+#height{
+    cursor: pointer;
+}
+
+#navbar{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-nav{
+    padding-right: 75px ;
+}
+.nav-link{
+    font-size: 20px;
+    color: rgb(255, 251, 0) ;
+}
+
+.nav-link:hover{
+    color: rgb(255, 251, 0) !important;
+    opacity: 0.7;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.6) ;
+    color: rgb(255, 251, 0) ;
+}
+
+.btn:hover{
+    color: rgb(255, 251, 0) !important;
+    opacity: 0.7;
+}
+
+.label{
+    color: white;
+    text-shadow: 2px 2px 4px #585858;
+}
+
+.inp{
+    height: 50px;
+    border-radius: 5px;
+}
+.display-none {
+    display: none;
+}
