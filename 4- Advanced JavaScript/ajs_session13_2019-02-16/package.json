@@ -1,0 +1,11 @@
+{
+  "name": "ajs_session13_2019-02-16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Sameer Ali\"",
+  "license": "ISC"
+}
