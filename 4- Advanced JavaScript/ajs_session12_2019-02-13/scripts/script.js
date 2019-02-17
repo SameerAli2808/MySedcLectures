@@ -118,6 +118,12 @@ $(() => {
         if(ships === 'fighter') {
             populateFighter()
         }
+        if(ships === 'cargo') {
+            populateCargo()
+        }
+        if(ships === 'mining') {
+            populateMining()
+        }
     })
 })
 
