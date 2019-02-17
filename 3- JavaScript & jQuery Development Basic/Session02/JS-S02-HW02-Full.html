@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS-S02-HW02</title>
+</head>
+<body>
+	<h1>JavaScipt - Session 02 - Homework Part 2</h1>
+	<p>Write a javascript program for making an order for:</p>
+	<p>Coffee - 2$, Juice - 3$, Water - 1$</p>
+	<P>Beer - 4$, Wine - 5$, Whisky - 10$</p>
+	<p>You can order multiple drinks but only one type</p>
+	<p>There should be a reciept with the type and quantity of the drink and the total price</p>
+	<script>
+		console.log(`Hello sir, what kind of drinks you would like to have?`);
+		alert(`Hello sir, what kind of drinks you would like to have?
+			Please, choose 1 for Coffee,   2 for Juice,     3 for Water,
+			                          4 for Beer,      5 for Wine,     6 for Whisky
+			Then choose the quantity that you want.
+			At your service!`);
+		var drinkType, drinkQuantity, drinkPrice, totalPrice;
+		alert(`What's you choise of drink, sir?`);
+		drinkType = prompt();
+		drinkType = parseInt(drinkType);
+		alert(`How many of that, sir?`);
+		drinkQuantity = prompt();
+		drinkQuantity = parseInt(drinkQuantity);
+		switch(drinkType) {
+			case 1:
+				drinkType = "Coffee";
+				drinkPrice = 2;
+			break;
+			case 2:
+				drinkType = "Juice";
+				drinkPrice = 3;
+			break;
+			case 3:
+				drinkType = "Water";
+				drinkPrice = 1;
+			break;
+			case 4:
+				drinkType = "Beer";
+				drinkPrice = 4;
+			break;
+			case 5:
+				drinkType = "Wine";
+				drinkPrice = 5;
+			break;
+			case 6:
+				drinkType = "Whisky";
+				drinkPrice = 10;
+			break;
+		}
+		totalPrice = drinkQuantity * drinkPrice;
+		alert(`Thank you for choosing our bar. Your reciept, sir.
+
+			Drink Type: ${drinkType}, Quantity: ${drinkQuantity}
+			The total amount is ${totalPrice}$
+
+			See you soon again.`);
+	</script>
+</body>
+</html>
