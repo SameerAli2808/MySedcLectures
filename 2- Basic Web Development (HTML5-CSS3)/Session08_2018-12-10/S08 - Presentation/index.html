@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>HTML and CSS</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="assets/css/reveal.css">
+		<link rel="stylesheet" href="assets/css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'assets/text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/css/print/pdf.css' : 'assets/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+			<section>
+
+				<!-- Slide 1 -->
+				<section style="text-align: left;">
+					<h1>HTML5 &amp; CSS3</h1>
+					<h3>CSS</h3>
+					<p>
+						<small>Created by Jovana Shishkovska & Katerina Veloska</small></br>
+						<img src="assets/img/lg.png" alt="logo" style="border:none; box-shadow:none;" />
+						
+					</p>
+					<small style="font-size: 15px;">© 2016/2017 Seavus Education &amp; Development Center</small>
+				</section>
+
+
+				<!-- Slide 2 -->
+				<section style="text-align: left;">
+					<h2>Lesson overview</h2>
+					<ul>
+						<li>Positioning elements</li>
+					</ul>
+				</section>
+
+	
+
+
+
+				<!-- Slide 27 -->
+				<section style="text-align: left;">
+					<h2>The <strong style="color:#007ac9;">display</strong> property</h2>
+					<ul>
+						<li>The <strong style="color:#007ac9;">display</strong> property allows you to turn an inline element into a block-level element or vice versa, and can also be used to hide an element from the page.</li>
+						<li>The values this property can take are:
+							<ul>
+								<li>inline</li>
+								<li>block</li>
+								<li>inline-block</li>
+								<li>none</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+
+
+
+				<!-- Slide 27 -->
+				<section style="text-align: left;">
+					<h2>The <strong style="color:#007ac9;">visibility</strong> property</h2>
+					<ul>
+						<li>The <strong style="color:#007ac9;">visibility</strong> property allows you to hide boxes from users but It leaves a space where the element would have been.</li>
+						<li>This property can take two values:
+							<ul>
+								<li>hidden</li>
+								<li>visible</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+
+
+
+
+				<section class="font90" style="text-align: left;">
+					<h2>Positioning elements (1)</h2>
+					<ul>
+						<li>CSS has the following <strong style="color:#FF6347;">positioning schemes</strong> that allow you to control the layout of a page: <em>normal flow</em>, <em>relative positioning</em>, and <em>absolute positioning</em></li>
+						<li>You specify the positioning scheme using the <em>position</em> property in CSS. You can also float elements using the <em>float</em> property.</li>
+						<li><strong style="color:#FF6347;">Normal flow</strong> - Every block-level element appears on a new line, causing each item to appear lower down the page than the previous one</li>
+						<li><strong style="color:#FF6347;">Relative positioning</strong> - This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom, or left of where it would have been placed and this does not affect position of surrounding elements</li>
+						
+					</ul>
+				</section>
+
+
+
+
+
+				<section class="font90" style="text-align: left;">
+					<h2>Positioning elements (2)</h2>
+					<ul>
+						<li><strong style="color:#FF6347;">Absolute positioning</strong> - This positions the element in relation to its containing element. It is taken out of normal flow and does not affect the position of any surrounding elements </li>
+						<li><strong style="color:#FF6347;">Fixed positioning</strong> - This is a form of absolute positioning that positions the element in relation to the browser window</li>
+						<li><strong style="color:#FF6347;">Floating elements</strong> - Floating an element allows you to take that element out of normal flow and position it to the far left or right of a containing box. The floated element becomes a block-level element around which other content can flow </li>
+					</ul>
+				</section>
+
+
+
+
+
+				<section>
+						<div class="sl-block" data-block-type="image" style="width: 100%; height: 100%;" data-block-id="">
+						    <div class="sl-block-content"><img src="assets/img/pos_hed.png"><img src="assets/img/positioning_explained.png"></div>
+						</div>
+				</section>
+
+
+
+				<section class="font90" style="text-align: left;">
+					<h2>Normal Flow</h2>
+					<ul>
+						<li>Each block-level element sits on top of the next one</li>
+						<li>Default way, so no CSS needed, but the syntax would be: <strong style="color:#007ac9;">position: static;</strong></li>
+					</ul>
+				</section>
+
+
+
+				<section class="font90" style="text-align: left;">
+					<h2>Relative positioning</h2>
+					<ul>
+						<li><strong style="color:#007ac9;">position: relative;</strong></li>
+						<li>"relative to itself"</li>
+						<li>Relative positioning moves an element from where it would have been in normal flow (E.g. 10px lower, 20% right)</li>
+						<li>Using the 0ffset properties: <em>top</em>, <em>bottom</em>, <em>left</em> and <em>right</em> you can move the element from its normal flow</li>
+					</ul>
+				</section>
+
+
+				<section style="text-align: left;">
+						<p><pre><code class="hljs" data-trim contenteditable>
+p.example { position: relative; top: 10px; left: 100px;}
+
+&lt;h1&gt;What is Lorem Ipsum?&lt;/h1&gt; 
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt; 
+&lt;p class="example"&gt;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing &lt;/p&gt; 
+&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintoc...&lt;/p&gt; 
+
+					</code></pre></p>
+				</section>
+
+
+				<section class="font70" style="text-align: left;">
+					<h1>What is Lorem Ipsum?</h1> 
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+					<p class="example">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing </p> 
+					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintoc...</p> 
+				</section>
+
+
+
+				<section class="font90" style="text-align: left;">
+					<h2>Absolute positioning</h2>
+					<ul>
+						<li><strong style="color:#007ac9;">position: absolute;</strong></li>
+						<li>When the position property is given a value of absolute, the box is taken out of normal flow and no longer affects the position of other elements on the page</li>
+						<li>Using the 0ffset properties: <em>top</em>, <em>bottom</em>, <em>left</em> and <em>right</em> you can specify where the element should appear in relation to its containing element</li>
+					</ul>
+				</section>
+
+
+
+
+
+				<section style="text-align: left;">
+						<p><pre><code class="hljs" data-trim contenteditable>
+.example_absolute { position: absolute; top: 0px; left: 1000px;}
+
+&lt;body&gt; 
+&lt;span class="example_absolute"&gt;Text Here!&lt;/span&gt;
+&lt;/body&gt; 
+
+					</code></pre></p>
+					<span class="example_absolute">Text Here!</span>
+				</section>
+
+
+
+
+				<section class="font90" style="text-align: left;">
+					<h2>Fixed positioning</h2>
+					<ul>
+						<li><strong style="color:#007ac9;">position: fixed;</strong></li>
+						<li>Type of absolute positioning </li>
+						<li>It positions the element in relation to the browser window</li>
+						<li>Using the 0ffset properties: <em>top</em>, <em>bottom</em>, <em>left</em> and <em>right</em> you can specify where the fixed position box appears in relation to the browser window</li>
+					</ul>
+				</section>
+
+
+
+
+				<section style="text-align: left;">
+						<p><pre><code class="hljs" data-trim contenteditable>
+.example_fixed { position: fixed; top: -100px; left: 50px}
+
+&lt;body&gt; 
+&lt;h1 class="example_fixed"&gt;Text Here!&lt;/h1&gt;
+&lt;/body&gt; 
+
+					</code></pre></p>
+					<h1 class="example_fixed">Text Here!</h1>
+				</section>
+
+
+
+
+				<section class="font90" style="text-align: left;">
+					<h2>Overlapping elements</h2>
+					<ul>
+						<li><strong style="color:#007ac9;">z-index: number;</strong></li>
+						<li>When using positioning, boxes can overlap. If boxes do overlap, the elements that appear later in the HTML code sit on top of those that are earlier in the page</li>
+						<li>Control which element sits on top</li>
+						<li> Its value is a number, and the higher the number the closer that element is to the front</li>
+						<li>E.g. element with a z-index = 10 will appear over the top of element with z-index = 5</li>
+					</ul>
+				</section>
+
+
+
+				<section>		
+					<div class="sl-block" data-block-type="image" style="width: 100%; height: 100%;" data-block-id="">
+					    <div class="sl-block-content"><img src="assets/img/z_index.png"></div>
+					</div>
+				</section>
+
+
+
+
+				<section class="font90" style="text-align: left;">
+					<h2>Floating elements</h2>
+					<ul>
+						<li><strong style="color:#007ac9;">float: none|left|right|initial|inherit;</strong></li>
+						<li>The float property allows you to take an element in normal flow and place it as far to the left or right of the containing element as possible</li>
+						<li>Anything else that sits inside the containing element will flow around the element that is floated</li>
+						<li>You should also use the width property to indicate how wide the floated element should be with block elements</li>
+					</ul>
+				</section>
+
+
+
+
+				<section  style="text-align: left;">
+						<p><pre><code class="hljs" data-trim contenteditable>
+blockquote {    float: right;    width: 275px;    font-size: 130%;    font-style: italic;    font-family: Georgia, Times, serif;    margin: 0px 0px 10px 10px;    padding: 10px;    border-top: 1px solid #665544;    border-bottom: 1px solid #665544;}
+
+
+&lt;h1&gt;The Evolution of the Bicycle&lt;/h1&gt; 
+&lt;blockquote&gt;"Life is like riding a bicycle.  To keep your balance you must keep moving." -   Albert Einstein&lt;/blockquote&gt; 
+&lt;p&gt;In 1817 Baron von Drais invented a walking   machine that would help him get around the royal   gardens faster: two same-size in-line wheels, the   front one steerable, mounted in a frame ... &lt;/p&gt; 
+					</code></pre></p>
+					<div class="font70">
+					<h1>The Evolution of the Bicycle</h1> 
+					<blockquote>"Life is like riding a bicycle.  To keep your balance you must keep moving." -   Albert Einstein</blockquote> 
+					<p>In 1817 Baron von Drais invented a walking   machine that would help him get around the royal   gardens faster: two same-size in-line wheels, the   front one steerable, mounted in a frame ... </p> 
+					</div>
+				</section>
+
+
+
+
+				<!-- Slide 23 -->
+				<section>		
+					<div class="sl-block" data-block-type="image" style="width: 100%; height: 100%;" data-block-id="">
+					    <div class="sl-block-content"><img src="assets/img/markup.jpg"></div>
+					</div>
+				</section>
+
+
+
+
+				<!-- Slide 24 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#222222" data-background-transition="slide">
+					<h3>Bonus Homework #6</h3>
+					<p><strong>Title:</strong> Working with CSS and Div's</p>
+					<p><strong>Description:</strong> Recreate the image on the next slide using css and div's</p>
+				</section>
+
+
+				<!-- Slide 23 -->
+				<section>		
+					<div class="sl-block" data-block-type="image" style="width: 100%; height: 100%;" data-block-id="">
+					    <div class="sl-block-content"><img src="assets/img/divcolor.png" style="border: none;"></div>
+					</div>
+				</section>
+
+
+				<!-- Slide 21 -->
+				<section style="text-align: left;">
+					<h1>Thank you!</h1>
+					<p>
+						<a href="#">Questions?</a> <br>
+					</p>
+				</section>
+
+
+
+
+			</section>
+
+			</div>
+
+		</div>
+
+		<script src="assets/lib/js/head.min.js"></script>
+		<script src="assets/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				 // Transition speed
+    			transitionSpeed: 'default', // default/fast/slow
+
+				 // Enable slide navigation via mouse wheel
+    			mouseWheel: true,
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'assets/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'assets/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,406 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	width: 100%;
+	height: 1238px;
+	background-image: url("../Images/img-01.png");
+	position: absolute;
+}
+#nav{
+	width: 50%;
+	height: 10%;
+	margin-top: 3%;
+	margin-left: 6%;
+}
+#menu{
+	list-style: none;
+
+}
+#menu a{
+	font-family: Open Sans;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.menu-items{
+	margin: 5%;
+	display: inline-block;
+}
+#menu a:hover{
+	border-bottom: 3px solid orange;
+}
+#h-div{
+	width: 35%;
+	height: 30%;
+	margin-top: 25%;
+	margin-left: 10%;
+}
+#h-div h1{
+	font-family: Raleway;
+	font-size: 50px;
+	font-weight: lighter;
+	color: white;
+	margin-bottom: 30px;
+}
+#h-div p{
+	font-family: Raleway;
+	font-size: 15px;
+	color: white;
+	line-height: 30px;
+}
+#h-div img{
+	margin-left: 30%;
+}
+#arrow{
+	width: 10%;
+	height: 100px;
+	margin-top: 0%;
+	margin-left: 10%;
+}
+#div-content1{
+	width: 70%;
+	height: 700px;
+	float: right;
+	margin-top: 890px;
+	position: relative;
+}
+#sidebar1{
+	width: 33%;
+	height: 100%;
+	background-color: #fc7528;
+	left: 0px;
+	float: left;
+}
+#sidebar1 h3{
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: lighter;
+	color: white;
+	margin-top: 50px;
+	margin-left: 35px;
+}
+#sidebar1 p{
+	font-family: Raleway;
+	font-size: 13px;
+	color: white;
+	line-height: 25px;
+	margin: 35px;
+}
+#right-side{
+	width: 67%;
+	height: 100%;
+	margin-left: 33%;
+}
+.clear:after{
+    clear: both;
+    display: table;
+    content: "";
+}
+#image1{
+	width: 100%;
+	height: 50%;
+	background-image: url("../Images/img-02.png");
+}
+#content1{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+}
+#content1 h3{
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #343538;
+	margin: 40px;
+}
+#content1 p{
+	font-family: Raleway;
+	font-size: 13px;
+	color: #6d6d6d;
+	line-height: 30px;
+	margin: 40px;
+}
+#content1 a{
+	font-family: Open Sans;
+	font-size: 15px;
+	color: #CCCCCC;
+	text-decoration: none;
+	margin-left: 40px;
+	display: flex;
+	align-items:center;
+}
+#content1 a span{
+	margin-left: 20px;
+	vertical-align: middle;
+}
+#div-content2{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	padding-top: 1600px;
+}
+#div-content2 h3{
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #343538;
+	margin-top: 40px;
+	margin-left: 100px;
+}
+#div-content2 h5{
+	font-family: Raleway;
+	font-size: 15px;
+	font-weight: lighter;
+	line-height: 30px;
+	color: #CCCCCC;
+	margin-top: 40px;
+	margin-left: 100px;
+}
+#left-col p{
+	font-family: Raleway;
+	font-size: 13px;
+	color: #6d6d6d;
+	line-height: 25px;
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 20px;
+}
+#right-col p{
+	font-family: Raleway;
+	font-size: 13px;
+	color: #6d6d6d;
+	line-height: 25px;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 100px;
+}
+.column{
+	float: left;
+	width: 50%;
+}
+#div-content2:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+#header2{
+	width: 100%;
+	height: 818px;
+	background-image: url("../Images/img-03.png");
+}
+#div-content3{
+	width: 90%;
+	height: 800px;
+	float:right;
+	margin-top: -28.5%;
+}
+#title-image{
+	width: 64.5%;
+	height: 400px;
+	float: left;
+}
+#title5{
+	width:50%;
+	height: 400px;
+	background-color: #fc7528;
+	float: left;
+}
+#title5 h3{
+	font-family: Raleway;
+	font-size: 60px;
+	font-weight: lighter;
+	color: white;
+	margin-top: 80px;
+	margin-left: 40px;
+}
+#image2{
+	width: 50%;
+	height: 400px;
+	background-image: url("../Images/img-04.png");
+	margin-left: 50%;
+}
+#content3{
+	width: 100%;
+	height: 400px;
+	background-color: #fc7528;
+	float: left;
+}
+#left-column p{
+	font-family: Raleway;
+	font-size: 13px;
+	color: white;
+	line-height: 25px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 60px;
+}
+#right-column p{
+	font-family: Raleway;
+	font-size: 13px;
+	color: white;
+	line-height: 25px;
+	margin-top: 40px;
+	margin-right: 110px;
+}
+#form-div{
+	width: 90%;
+	height: 210px;
+	background-color: #333333;
+	float: right;
+}
+#form-div h3{
+	font-family: Open Sans;
+	font-size: 30px;
+	font-weight: lighter;
+	color: white;
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-bottom: 2%;
+}
+#form{
+	padding-left: 5%;
+}
+#name{
+	width: 150px;
+	height: 50px;
+}
+#phone{
+	width: 150px;
+	height: 50px;
+	margin-left: 10px;
+}
+#email{
+	width: 200px;
+	height: 50px;
+	margin-left: 10px;
+}
+#button{
+	width: 120px;
+	height: 52px;
+	background-color: #333333;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	margin-left: 10px;
+}
+#button span{
+	font-family: Open Sans;
+	font-size: 13px;
+	color: white;
+}
+#header3{
+	width: 90%;
+	height: 660px;
+	background-image: url("../Images/img-05.png");
+	float: right;
+}
+#last{
+	width: 80%;
+	height: 700px;
+	position: relative;
+	margin-top: -20%;
+	margin-left: 10%;
+	display: inline-block;
+}
+#sidebar2{
+	width: 33%;
+	height: 100%;
+	background-color: #fc7528;
+	float: left;
+	top: 0px;
+	left: 0px;
+}
+#sidebar2 h3{
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: lighter;
+	color: white;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 100px;
+}
+#sidebar2 p{
+	font-family: Raleway;
+	font-size: 13px;
+	color: white;
+	line-height: 25px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+#img-txt{
+	width: 67%;
+	height: 100%;
+	float: right;
+	top: 0px;
+	left: 0px;
+}
+#image3{
+	width: 100%;
+	height: 50%;
+	background-image: url("../Images/img-06.png");
+}
+#content4 h3{
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #343538;
+	margin: 40px;
+}
+#content4 p{
+	font-family: Raleway;
+	font-size: 13px;
+	color: #6d6d6d;
+	line-height: 30px;
+	margin: 40px;
+}
+#footer{
+	width: 100%;
+	height: 600px;
+	background-color: #333333;
+	margin: -4px;
+}
+#f-div{
+	width: 50%;
+	height: 50%;
+	padding-top: 5%;
+	padding-left: 25%;
+	margin: 0px;
+}
+#f-div div{
+	display: inline-block;
+}
+.list-divs{
+	width: auto;
+	height: 100%;
+	padding-left: 45px;
+	padding-right: 45px;
+	vertical-align: text-top;
+}
+.lists{
+	list-style: none;
+}
+.titles{
+	font-family: Open Sans;
+	font-size: 12px;
+	color: #fc7528;
+	text-align: left;
+	padding-bottom: 30px;
+}
+.lists a{
+	text-decoration: none;
+	font-family: Open Sans;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+}
+#f-paragraph{
+	font-family: Raleway;
+	font-size: 10px;
+	color: #CCCCCC;
+	margin-top: -50px;
+}
+
+

@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>HTML and CSS</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="assets/css/reveal.css">
+		<link rel="stylesheet" href="assets/css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'assets/text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/css/print/pdf.css' : 'assets/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+			<section>
+
+				<!-- Slide 1 -->
+				<section style="text-align: left;">
+					<h1>HTML5 &amp; CSS3</h1>
+					<h3>Forms</h3>
+					<p>
+						<small>Jovana Shishkovska / Katerina Veloska</small></br>
+						<img src="assets/img/lg.png" alt="logo" style="border:none; box-shadow:none;" />
+						
+					</p>
+					<small style="font-size: 15px;">© 2017/2018 Seavus Education &amp; Development Center</small>
+				</section>
+
+
+				<!-- Slide 2 -->
+				<section style="text-align: left;">
+					<h2>Lesson overview</h2>
+					<ul>
+						<li>Introduction</li>
+						<li>How to collect information from visitors</li>
+						<li>Different kinds of form controls</li>
+						<li>New HTML5 form controls</li>
+					</ul>
+				</section>
+
+
+
+				<!-- Slide 3 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Introduction</h1>
+				</section>
+
+
+				<!-- Slide 4 -->
+				<section style="text-align: left;">
+					<h2>Introduction</h2>
+					<ul>
+						<li>Traditionally, the term 'form' has referred to a printed document that contains spaces for you to fill in information</li>
+						<li>HTML borrows the concept of a form to refer to different elements that allow you to collect information from visitors to your site</li>
+					</ul>
+				</section>
+
+
+
+				<!-- Slide 5 -->
+				<section style="text-align: center;">
+					<p>The best known form on the web is probably the search box that sits right in the middle of Google's homepage</p>
+					<div class="sl-block" data-block-type="image" style="width: 100%; height: 100%;" data-block-id="04e5289dbbcaf1645e860129fe76de6b">
+					    <div class="sl-block-content"><img src="assets/img/google.png"></div>
+					</div>
+				</section>
+
+
+
+				<!-- Slide 6 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Build a form</h1>
+				</section>
+
+
+
+				<!-- Slide 6 -->
+				<section style="text-align: left;">
+					<h2>Building a form</h2>
+					<ul>
+						<li>You add a form to an HTML page using the <strong style="color:#007ac9;">&lt;form&gt;&lt;/form&gt;</strong> tags</li>
+					</ul>
+				</section>
+
+
+
+				<!-- Slide 7 -->
+				<section style="text-align: left;">
+					<h2>Form Controls</h2>
+					<p>There are several types of form controls that you can use to collect information from visitors to your site</p>
+					<ul>
+						<li>ADDING TEXT:
+						<ul>
+						    <li>Text input</li>
+						    <li>Password input</li>
+						    <li>Text area (multi-line)</li>
+						</ul>
+						</li>
+					</ul>
+				</section>
+
+
+
+				<!-- Slide 8 -->
+				<section style="text-align: left;">
+					<h2>Form Controls</h2>
+					<ul>
+						<li>MAKING CHOICES:
+						<ul>
+						    <li>Radio button</li>
+						    <li>Checkboxes</li>
+						    <li>Drop-down boxes</li>
+						</ul>
+						</li>
+					</ul>
+				</section>
+
+
+
+				<!-- Slide 9 -->
+				<section style="text-align: left;">
+					<h2>Form Controls</h2>
+					<ul>
+						<li>SUBMITTING FORMS:
+						<ul>
+						    <li>Submit buttons</li>
+						    <li>Image buttons</li>
+						</ul>
+						</li>
+					</ul>
+				</section>
+
+
+				<!-- Slide 10 -->
+				<section style="text-align: left;">
+					<h2>Form Controls</h2>
+					<ul>
+						<li>UPLOADING FILES:
+						<ul>
+						    <li>File upload</li>
+						</ul>
+						</li>
+					</ul>
+				</section>
+
+
+
+				<!-- Slide 11 -->
+				<section data-background="assets/img/forms.png">
+						<!-- Here the image is showing in the background of the slide -->
+				</section>
+
+
+				<!-- Slide 12 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Form Structure</h1>
+				</section>
+
+
+				<!-- Slide 13 -->
+				<section style="text-align: left;">
+					<h2>Form Structure</h2>
+					<ul>
+						<li><strong style="color:#007ac9;">&lt;form&gt;</strong></li>
+						<li>The &lt;form&gt; element should always carry the <strong style="color:#007ac9;">action</strong> attribute and will usually have a <strong style="color:#007ac9;">method</strong> and <strong style="color:#007ac9;">id</strong> attribute too</li>
+					</ul>
+				</section>
+
+
+				<!-- Slide 14 -->
+				<section style="text-align: left;">
+					<p>More on forms here: <a href="http://www.w3schools.com/html/html_forms.asp" target="_blank">http://www.w3schools.com/html/html_forms.asp</a></p>
+				</section>
+
+
+
+				<!-- Slide 15 -->
+				<section style="text-align: left;">
+					<h2>Basic Form Structure</h2>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;form action="subscribe.php" method="get"&gt;
+	&lt;p&gt;This is where the form controls will appear.
+	&lt;/p&gt;
+&lt;/form&gt;
+					</code></pre></p>
+				</section>
+
+
+
+
+				<!-- Slide 16 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Text input</h1>
+				</section>
+
+
+
+				<!-- Slide 17 -->
+				<section style="text-align: left;">
+					<h2>Text input</h2>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;form action="login.php"&gt;
+	&lt;p&gt;
+		&lt;label for="username"&gt;Username:&lt;/label&gt;
+		&lt;input type="text" id="username" name="username" /&gt;
+	&lt;/p&gt;
+&lt;/form&gt;
+					</code></pre></p>
+				</section>
+
+
+
+				<!-- Slide 18 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Password input</h1>
+				</section>
+
+
+
+				<!-- Slide 19 -->
+				<section style="text-align: left;">
+					<h2>Password input</h2>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;form action="login.php"&gt;
+	&lt;p&gt;
+		&lt;label for="username"&gt;Username:&lt;/label&gt;
+		&lt;input type="text" id="username" name="username" /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;label for="username"&gt;Password:&lt;/label&gt;
+		&lt;input type="password" id="password" name="password" /&gt;
+	&lt;/p&gt;
+&lt;/form&gt;
+					</code></pre></p>
+				</section>
+
+
+
+				<!-- Slide 20 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Text area</h1>
+				</section>
+
+
+
+				<!-- Slide 21 -->
+				<section style="text-align: left;">
+					<h2>Text area</h2>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;form action="comments.php"&gt;
+	&lt;p&gt;
+	&lt;label for="comments"&gt;What did you think of this gig?&lt;/label&gt;
+	&lt;/p&gt;
+	&lt;textarea id="comments" name="comments" cols="20" rows="4"&gt;
+		Enter your comments...
+	&lt;/textarea&gt;
+&lt;/form&gt;
+					</code></pre></p>
+				</section>
+
+
+
+				<!-- Slide 22 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Radio Button</h1>
+				</section>
+
+
+
+				<!-- Slide 23 -->
+				<section style="text-align: left;">
+					<h2>Radio Button</h2>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;form action="profile.php"&gt;
+	&lt;p&gt;Please select your favorite genre:&lt;/p&gt;
+	&lt;p&gt;
+		&lt;input type="radio" name="genre" value="rock"
+		checked="checked" /&gt; Rock
+		&lt;input type="radio" name="genre" value="pop" /&gt; Pop
+		&lt;input type="radio" name="genre" value="jazz" /&gt; Jazz
+	&lt;/p&gt;
+&lt;/form&gt;
+					</code></pre></p>
+				</section>
+
+
+
+				<!-- Slide 24 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Checkbox</h1>
+				</section>
+
+
+
+				<!-- Slide 25 -->
+				<section style="text-align: left;">
+					<h2>Checkbox</h2>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;form action="profile.php"&gt;
+	&lt;p&gt;Please select your favorite music service(s):&lt;/p&gt;
+	&lt;p&gt;
+		&lt;input type="checkbox" name="service"
+		value="itunes" checked="checked" /&gt; iTunes
+		&lt;input type="checkbox" name="service"
+		value="lastfm" /&gt; Last.fm
+		&lt;input type="checkbox" name="service"
+		value="spotify" /&gt; Spotify
+	&lt;/p&gt;
+&lt;/form&gt;
+					</code></pre></p>
+				</section>
+
+
+
+				
+
+
+				<!-- Slide 43 -->
+				<section style="text-align: left;">
+					<h1>To be continued...</h1>
+				</section>
+
+			</section>
+
+			</div>
+
+		</div>
+
+		<script src="assets/lib/js/head.min.js"></script>
+		<script src="assets/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				 // Transition speed
+    			transitionSpeed: 'default', // default/fast/slow
+
+				 // Enable slide navigation via mouse wheel
+    			mouseWheel: true,
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'assets/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'assets/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

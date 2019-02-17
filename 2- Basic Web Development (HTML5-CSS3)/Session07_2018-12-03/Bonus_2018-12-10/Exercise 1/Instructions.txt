@@ -1,0 +1,5 @@
+Try and recreate the layout shown on the image. Try to use appropriate HTML5 elements where possible instead of divs.
+
+Hint: Read about the 'float'property, it will be helpful here. We'll learn it on next class (9.12) so no worries if you don't understand it. 
+
+p.s. Ignore the "Activate Windows" sign at the bottom right corner :))

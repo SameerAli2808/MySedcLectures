@@ -1,0 +1,11 @@
+Try to recreate the Layout in the image you can find in this folder called Home Page.
+
+You can find all the images that you will need in the folder Images.
+
+The Fonts used in the design are Open Sans and Raleway and you can include them using a link from Google Fonts.
+
+Please send us the design until 20th of December!
+
+P.S. Don't be afraid of the layout, you can create it using the display, float and position css properties.
+
+Good Luck. :)

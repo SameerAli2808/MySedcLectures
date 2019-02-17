@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 20px 30px 0;
+}
+
+
+.primery-navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.primery-navigation li {
+    display: inline-block;
+}
+
+.primery-navigation li a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header {
+    background: url('../img/header-bg.jpeg') center center no-repeat;
+    height: 100vh;
+}
+
+.img-wrapper {
+    background: url('../img/girl.jpeg') center center no-repeat;
+    max-width: 300px;
+    height: 300px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.hero h1,
+.hero h3,
+.hero p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.hero p {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.hero,
+.img-container {
+    display: inline-block;
+    width: 49%;
+}
+
+@media screen and (max-width: 992px) {
+    .hero,
+    .img-container {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .primery-navigation li a {
+        font-size: 14px;
+    }
+
+    .hero h1,
+    .hero h3,
+    .hero p {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-left: 50px;
+    }
+
+    .header {
+        background: url('../img/mobile-bg.jpeg') center center repeat;
+    }
+}
+
+
+

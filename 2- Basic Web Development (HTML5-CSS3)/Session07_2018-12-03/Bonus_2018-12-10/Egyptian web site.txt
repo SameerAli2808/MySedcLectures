@@ -1,0 +1,6 @@
+Make a layout for a site about ancient Egypt. 
+Put a header, a nav bar in the left region and a footer.
+Make the header and footer one colour and put a background image to the content part of the web page. 
+In the nav bar put some menu items which will lead you to different sections of the page.
+Put some hyperlinks throughout the page that will lead to different web sites, content related. 
+Use html5 tags!

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List Boxs</title>
+    </head>
+    <body>
+        <form action="">
+            <p>*** Drop Down List Box ***</p>
+            <p>What device do you listen to music on?</p>
+            <select name="device">
+                <option value="ipod" selected="selected">iPod</option>
+                <option value="radio">Radio</option>
+                <option value="computer">Computer</option>
+            </select>
+        </form>
+        <p>-----------------------------------------------------------------------</p>
+        <form action="">
+            <p>*** Multiple Select Box ***</p>    
+            <p>Do you play any of these instruments (Use Ctrl to choose more than one choice)?</p>
+            <select name="instruments" size="5" multiple="multiple">
+                <option value="guitar" selected="selected">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="keybord" selected="selected">Keybord</option>
+                <option value="bass">Bass</option>
+            </select>
+        </form>
+        <p>-----------------------------------------------------------------------</p>
+        <form action="">
+            <p>*** File Input ***</p>
+            <p>Upload your song in MP3 format:</p>
+            <input type="file" name="user-song" /><br>
+            <input type="submit" value="submit" />
+        </form>
+        <p>-----------------------------------------------------------------------</p>>
+        <form action="">
+            <p>*** Button & Hidden Control ***</p>
+            <button>
+                <img src="images/add.gif" alt="add" width="10" height="10" />
+            </button>
+            <input type="hidden" name="bookmark" value="lyrics" />
+        </form>
+        <p>-----------------------------------------------------------------------</p>
+        <form action="">
+            <p>*** Grouping Form Element ***</p>
+            <fieldset>
+                <legend>Contact Details</legend>
+                <label>Email:<br><input type="text" name="email" /></label><br>
+                <label>Mobile:<br><input type="text" name="mobile" /></label><br>
+                <label>Telephonne:<br><input type="text" name="telephone" /></label><br>
+            </fieldset>
+        </form>
+        <p>-----------------------------------------------------------------------</p>
+        <form action="">
+            <p>*** Form Validation ***</p>
+            <fieldset>
+                <legend>Contact Details</legend>
+                <label>Email:<br><input type="text" name="email" required="required" /></label><br>
+                <label>Mobile:<br><input type="text" name="mobile" /></label><br>
+                <label>Telephonne:<br><input type="text" name="telephone" /></label><br>
+                <input type="submit" value="submit" />
+            </fieldset>
+        </form>
+        <p>-----------------------------------------------------------------------</p>
+        <form action="">
+            <p>*** Specific Elements ***</p>
+            <fieldset>
+                <label>Date:<br><input type="date" /></label><br>
+                <label>Email:<br><input type="email" /></label><br>
+                <label>Link:<br><input type="url" /></label><br>
+                <label>Search:<br><input type="search" value="search"/></label><br>
+            </fieldset>
+        </form>
+        <p>-----------------------------------------------------------------------</p>
+        <form action="">
+            <p>*** Placeholder ***</p>
+            <input placeholder="Enter your name:" />
+        </form>
+    </body>
+</html>

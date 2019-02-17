@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Form</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>Testform</legend>
+            </fieldset>
+            <fieldset>
+                <label>Name:<input placeholder="Enter your name" /></label><br>
+                <p></p>
+                <label>Password:<input type="password" id="password" name="password" /></label><br>
+                <p></p>
+                <p>
+                    <lable>Gender:</lable>
+                    <input type="radio" name="gender" value="male" /> Male
+                    <input type="radio" name="gender" value="female" /> Female
+                </p></p>
+                <label>Continent:</label>
+                    <select name="continent">
+                        <option value="defult" selected="selected" disabled="disabled">Please select ...</option>
+                        <option value="asia">Asia</option>
+                        <option value="africa">Africa</option>
+                        <option value="europe">Europe</option>
+                        <option value="northAmerica">North America</option>
+                        <option value="southAmerica">South America</option>
+                        <option value="ocianos">Ocianos</option>
+                    </select>
+                <p></p>
+                <label>Meals:</label>
+                    <input type="checkbox" name="meals" value="breakfast" checked="checked" /> Breakfast
+                    <input type="checkbox" name="meals" value="lunch" /> Lunch
+                    <input type="checkbox" name="meals" value="dinner" /> Dinner
+                <p></p>
+                    <label for="comments">Remarks:</label><br>
+                    <textarea id="remarks" name="remarks" cols="70" rows="7" placeholder="Enter your remarks"></textarea>            
+            </fieldset>
+            <fieldset>
+                    <input type="submit" value="Send" />
+                    <button>
+                            Cancel
+                    </button>
+            </fieldset>
+    </body>
+</html>

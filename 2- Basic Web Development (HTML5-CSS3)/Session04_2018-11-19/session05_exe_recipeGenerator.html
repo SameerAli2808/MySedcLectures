@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipe Generator</title>
+    </head>
+    <body>
+        <table border="8" cellpadding="1" cellspacing="1">
+            <caption><h2>Recipe Generator</h2></caption>
+            <thead>
+                <th colspan="2">
+                    <label for="recipe_name">Name of the Recipe:</label>
+                </th>
+                <th colspan="8">
+                    <input type="text" id="recipe_name" name="recipe_name" /> 
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4" colspan="2">Choose your favorite meal:</td>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                        <input type="radio" name="meal" value="breakfast" /> Breakfast
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                       <input type="radio" name="meal" value="lunch" /> Lunch
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                        <input type="radio" name="meal" value="dinner" /> Dinner
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="10">Choose the ingreadiants that you like:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="eggs" /> Eggs
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="beef" /> Beef
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="ham" /> Ham
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="lamb" /> Lamb
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="chicken" /> Chicken
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="cheese" /> Cheese
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="tomatos" /> Tomatos
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="oinos" /> Onions
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="garlic" /> Garlic
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ingreadiants" value="latuse" /> Latuse
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="10" rowspan="4">
+                        <label for="comment">Comments:</label>
+                        <input type="text" id="comment" name="comment" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <input type="submit" value="Submit"> 
+    </body>
+</html>

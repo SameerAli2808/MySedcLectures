@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+}
+
+/***** Background Coloring *****/
+.white {
+    background-color: white; 
+}
+.maroon {
+    background-color: rgb(43, 6, 6); 
+}
+.red {
+    background-color: red; 
+}
+.blue {
+    background-color: blue; 
+}
+.grey {
+    background-color: rgb(182, 180, 180); 
+}
+.orange {
+    background-color: orange; 
+}
+
+/* Styling Main Wrapper */
+.main-wrapper {
+    margin-left: 100px;
+    width: 640px;
+    height: 640px; 
+}
+
+/* Styling Main Right Elements *********************/
+.right-main-wrapper {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 640px; 
+}
+
+.ri-ma-up {
+    width: 50px;
+    height: 480px;
+    border: 5px black solid; 
+}
+
+.ri-ma-down {
+    width: 50px;
+    height: 160px;
+    border: 5px black solid; 
+}
+
+/****************************************************/
+/***** Styling Main Left Elements *******************/
+.left-main-wrapper {
+    display: inline-block;
+    float: left;
+    width: 590px;
+    height: 640px;
+}
+
+/* Styling Left Upper ********************/
+.left-upper-wrapper {
+    display: block;
+    float: left;
+    width: 590px;
+    height: 130px;
+}
+
+.le-up-left {
+    display: inline-block;
+    float: left;
+    width: 180px;
+    height: 130px;
+    border: 5px black solid;
+}
+
+.le-up-mid {
+    display: inline-block;
+    float: left;
+    width: 240px;
+    height: 130px;
+    border: 5px black solid;
+}
+
+.le-up-right {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 130px;
+    border: 5px black solid;
+}
+
+/* Styling Left Left ********************/
+.left-left-wrapper {
+    display: inline-block;
+    float: left;
+    width: 120px;
+    height: 510px;
+}
+
+.le-le-up {
+    width: 120px;
+    height: 150px;
+    border: 5px black solid;
+}
+
+.le-le-mid {
+    width: 120px;
+    height: 210px;
+    border: 5px black solid;
+}
+
+.le-le-down {
+    width: 120px;
+    height: 150px;
+    border: 5px black solid;
+}
+
+/* Styling Left Mid ********************/
+.left-mid-wrapper {
+    display: inline-block;
+    float: left;
+    width: 470px;
+    height: 295px;
+    /* border: 5px black solid; */
+}
+
+.le-mi-main {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 295px;
+    border: 5px black solid;
+}
+
+/* Styling Left Mid Right Elements */
+.le-mi-right-wrapper {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 295px;
+}
+
+.le-mi-ri-up {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 170px;
+    border: 5px black solid;
+}
+
+.le-mi-ri-down-wrapper {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 125px;
+}
+
+.le-mi-ri-down {
+    display: inline-block;
+    float: left;
+    width: 85px;
+    height: 125px;
+    border: 5px black solid;
+}
+
+/* Styling Left Down ********************/
+.left-down-wrapper {
+    display: inline-block;
+    float: left;
+    width: 470px;
+    height: 215px;
+}
+
+/* Styling Leeft Down Left */
+.left-down-left-wrapper {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 215px;
+}
+
+.le-do-le-up {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 165px;
+    border: 5px black solid;
+}
+
+.le-do-le-down {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 50px;
+    border: 5px black solid;
+}
+
+/* Styling Leeft Down Right */
+.left-downn-right-wrapper {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 215px;
+}
+
+.left-down-right-down {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 30px;
+    border: 5px black solid;
+}
+
+.left-down-right-up-wrapper {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 185px;
+}
+
+.le-do-ri-up-left-wrapper {
+    display: inline-block;
+    float: left;
+    width: 130px;
+    height: 185px;
+}
+
+.le-do-ri-up-le-up {
+    display: inline-block;
+    float: left;
+    width: 130px;
+    height: 75px;
+    border: 5px black solid;
+}
+
+.le-do-ri-up-le-mid {
+    display: inline-block;
+    float: left;
+    width: 130px;
+    height: 55px;
+    border: 5px black solid;
+}
+
+.le-do-ri-up-le-down {
+    display: inline-block;
+    float: left;
+    width: 130px;
+    height: 55px;
+    border: 5px black solid;
+}
+
+.le-do-ri-up-right-wrapper {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 185px;
+}
+
+.le-do-ri-up-ri-up {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 75px;
+    border: 5px black solid;
+}
+
+.le-do-ri-up-ri-down {
+    display: inline-block;
+    float: left;
+    width: 170px;
+    height: 110px;
+    border: 5px black solid;
+}
+
+

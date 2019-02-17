@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    background: black;
+}
+
+.upperPart {
+    display: inline-block;
+    width: 1310px;
+}
+
+.upAside {
+    float: left;
+    /* display: inline-block; */
+    /* border: 5px black solid; */
+    width: 250px;
+    /* height: 100px; */
+}
+
+.upAside div {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    /* width: 100%; */
+    height: 350px;
+    background: beige;
+}
+
+.upMain{
+    float: left;
+    border-width: 5px;
+    border: black;
+    border-style: solid;
+    width: 1044px;
+    height: 712px;
+    background: red;
+}
+
+/* .clearfix::after { */
+    /* content: ""; */
+    /* clear: both; */
+    /* display: table; */
+/* } */
+
+footer {
+    display: inline-block;
+    width: 1300px;
+}
+
+.foAside {
+    float: left;
+    background: blue;
+    border: 5px solid black;
+    width: 240px;
+    height: 200px;
+}
+
+.foMain {
+    float: left;
+    width: 1020px;
+    height: 200px;
+    background-color: beige;
+    border: 5px solid black;
+}
+
+.fofo {
+    
+    float: left;
+    width: 20px;
+    /* height: 200px; */
+    /* background-color: blue; */
+    /* border: 5px solid black; */
+}
+
+.fo01, .fo02 {
+    width: 100%;
+    height: 95px;
+    border: 5px solid black;
+}
+
+.fo01 {
+    background-color: beige;
+}
+
+.fo02 {
+    background-color: yellow;
+}

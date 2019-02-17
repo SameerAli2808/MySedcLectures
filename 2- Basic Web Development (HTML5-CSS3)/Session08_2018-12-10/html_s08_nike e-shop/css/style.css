@@ -1,0 +1,179 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/************ Styling the Header ************/
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+.logo-warpper img {
+    width: 80px;
+    height: auto;
+}
+
+.main-navigation {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.main-navigation li a {
+    text-decoration: none;
+    color: lightgray;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.main-navigation li a:hover {
+    color: orange;
+}
+
+.main-navigation li .active {
+    color: orange;
+}
+
+.main-navigation li {
+    display: inline-block;
+}
+
+.logo-warpper, nav {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+.sidebar, .product-wrapper {
+    display: inline-block;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: orange;
+    float: left;
+    height: 1200px;
+}
+
+.product-wrapper {
+    width: 73%;
+    padding: 0 20px;
+}
+
+.sidebar-navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-navigation li a {
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+
+}
+
+.sidebar-navigation li .active {
+    color: #fff;
+}
+
+.sidebar-navigation li a:hover {
+    color: #fff;
+}
+
+.product-card img {
+    max-width: 150px;
+    min-height: auto;
+    height: auto;
+}
+
+.product-wrapper h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.product-card {
+    width: 250px;
+    min-height: 400px;
+    border: 1px solid #222;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    margin: 30px;
+}
+
+.product-card p {
+    text-align: left;
+}
+
+.product-card h3, .product-card p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-card h3 {
+    text-transform: uppercase;
+}
+
+.product-price {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    position: absolute;
+    right: 20px;
+    top: 38%;
+}
+
+.inner-product-linne {
+    height: 3px;
+    width: 100%;
+    background-color: orange;
+}
+
+.inner-product-content-wrapper {
+    padding: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.sidebar nav {
+    float: left;
+    padding: 50px;
+}
+
+footer {
+    clear: both;
+    background-color: #222;
+    padding: 25px 50px 60px 0px;
+}
+
+.social-media {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-media li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.social-media img {
+    width: 30px;
+}
+
+

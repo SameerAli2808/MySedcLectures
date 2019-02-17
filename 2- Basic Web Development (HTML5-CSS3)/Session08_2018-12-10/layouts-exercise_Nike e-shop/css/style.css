@@ -1,0 +1,182 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+}
+
+
+header {
+	background-color: #222;
+	padding: 20px;
+}
+
+.logo-wrapper img {
+	width: 80px;
+	height: auto;
+}
+
+.main-navigation {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.main-navigation li a {
+	text-decoration: none;
+	color: lightGrey;
+	text-transform: uppercase;
+	padding: 10px 15px;
+}
+
+.main-navigation li a:hover {
+	color: orange;
+}
+
+.main-navigation li .active {
+	color: orange;
+}
+
+.main-navigation li {
+	display: inline-block;
+}
+
+.logo-wrapper, nav {
+	display: inline-block;
+}
+
+nav {
+	float: right;
+}
+
+.sidebar, .product-wrapper {
+	display: inline-block;
+}
+
+.sidebar {
+	width: 20%;
+	background-color: orange;
+	float: left;
+	height: 1100px;
+}
+
+.product-wrapper {
+	padding: 0 20px;
+	width: 75%;
+	float: right;
+	text-align: center;
+}
+
+.sidebar-navigation {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-navigation li a {
+	text-decoration: none;
+	color: #222;
+	text-transform: uppercase;
+
+}
+
+.sidebar-navigation li a:hover {
+	color: #fff;
+}
+
+.sidebar-navigation li .active {
+	color: #fff;
+}
+
+.product-card img {
+	max-width: 200px;
+	height: auto;
+}
+
+.product-wrapper h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: orange;
+}
+
+.product-card {
+	width: 250px;
+	border: 1px solid #222;
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+	position: relative;
+	margin: 20px;
+}
+
+.product-card p {
+	text-align: left;
+}
+
+.product-card h3, .product-card p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.product-card h3 {
+	text-transform: uppercase;
+}
+
+.product-price {
+	background-color: #222;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 3px;
+	position: absolute;
+	right: 20px;
+	top: 43%;
+}
+
+.inner-product-line {
+	height: 3px;
+	width: 100%;
+	background-color: orange;
+}
+
+.inner-product-content-wrapper {
+	padding: 20px;
+}
+
+.button {
+	padding: 10px 20px;
+	background-color: orange;
+	text-decoration: none;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 20px 0;
+	display: inline-block;
+}
+
+.sidebar nav {
+	float: left;
+	padding: 50px;
+}
+
+footer {
+	clear: both;
+	background-color: #222;
+	padding: 30px 30px 45px 0;
+}
+
+.social-media {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.social-media li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-media img {
+	width: 25px;
+	height: auto;
+}
+
+.clearfix {
+	clear: both;
+}

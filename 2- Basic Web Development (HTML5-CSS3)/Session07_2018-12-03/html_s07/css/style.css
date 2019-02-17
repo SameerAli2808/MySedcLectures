@@ -1,0 +1,92 @@
+body{
+    font-family: 'Tangerine', cursive;
+    
+}
+
+h1{
+    color: rgba(11, 153, 11, 0.425);
+    letter-spacing: 5px;
+    word-spacing: 12px;
+    text-shadow: 5px 3px 7px #111111;
+}
+.h01{
+    color: blue;
+    font-weight: bold;
+}
+#third{
+    color: brown; 
+    font-weight: bold;
+}
+.div01{
+    min-width: 75%;
+    max-width: 100%;
+    background-color: #bbbbaa;
+    font-family: 'Bad Script', cursive;
+}
+/* *{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+.pOne{
+    text-transform: capitalize ;
+}
+
+.pTwo{
+    text-transform: capitalize;
+    line-height: 32px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-align: justify;
+}
+
+p.pTwo::first-letter{
+    font-size: 200%;
+    color: forestgreen;
+    text-shadow: 5px 3px 7px #111111;
+}
+
+p.pTwo:first-line{
+    font-weight: bold;
+}
+
+a{
+    font-size: 18px;
+    font-family: none;
+}
+
+a:link{
+    color: rgb(220, 157, 20);
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+input{
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #13c01c;
+    color: #ffffff;
+}
+
+input.submit:hover{
+    background-color: #665544;
+}
+input.submit:active{
+    background-color: chocolate;
+}
+input.text{
+    color: #cccccc;
+}
+input.text:focus{
+    color: #665544;
+}
+
+p{
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+}
+
+
+

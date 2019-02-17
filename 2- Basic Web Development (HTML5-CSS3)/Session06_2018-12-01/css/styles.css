@@ -1,0 +1,16 @@
+h1{
+    color: rgba(11, 153, 11, 0.425);
+}
+.h01{
+    color: blue;
+}
+#third{
+    color: brown; 
+    font-weight: bold;
+}
+.div01{
+    background-color: aqua;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

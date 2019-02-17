@@ -1,0 +1,5 @@
+*Create an index page with a photo of the planets in our solar system.
+* Make Jupiter clickable so it will lead to another page 'About Jupiter', opening in another tab, not on the 	same page. 
+*There, present several facts about Juputer(try to use elements we've already learned). 
+*Put 'back' and 'More destinations 'links on the top of the page. 
+*The 'back' link will take you back to the main page and 'More destinations' will lead to Nasa's page for our solar system. The Nasa's web site should also be accessible from the main page too.
