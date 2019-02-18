@@ -116,13 +116,19 @@ $(() => {
     $('#choose').change( () => {
         let ships = $('#choose').val()
         if(ships === 'fighter') {
-            populateFighter()
+            $('#creatFighter').removeClass('display-none')
+            $('#creatCargo').addClass('display-none')
+            $('#creatMining').addClass('display-none')
         }
         if(ships === 'cargo') {
-            populateCargo()
+            $('#creatCargo').removeClass('display-none')
+            $('#creatFighter').addClass('display-none')
+            $('#creatMining').addClass('display-none')
         }
         if(ships === 'mining') {
-            populateMining()
+            $('#creatMining').removeClass('display-none')
+            $('#creatFighter').addClass('display-none')
+            $('#creatCargo').addClass('display-none')
         }
     })
 })
@@ -131,6 +137,7 @@ let populateFighter = () => {
     $('#fighter').removeClass('display-none');
     $('#cargo').addClass('display-none')
     $('#mining').addClass('display-none')
+    $('#creat').addClass('display-none')
     $('#showDataFighter').html('')
     $('#showDataFighter').append(`
         <h1>${fighter01.name}</h1>
@@ -149,6 +156,7 @@ let populateCargo = () => {
     $('#cargo').removeClass('display-none');
     $('#fighter').addClass('display-none')
     $('#mining').addClass('display-none')
+    $('#creat').addClass('display-none')
     $('#showDataCargo').html('')
     $('#showDataCargo').append(`
         <h1>${cargo01.name}</h1>
@@ -166,6 +174,7 @@ let populateMining = () => {
     $('#mining').removeClass('display-none');
     $('#fighter').addClass('display-none')
     $('#cargo').addClass('display-none')
+    $('#creat').addClass('display-none')
     $('#showDataMining').html('')
     $('#showDataMining').append(`
         <h1>${mining01.name}</h1>
@@ -187,6 +196,9 @@ const showLogo = () => {
     $('#fighter').addClass('display-none')
     $('#cargo').addClass('display-none')
     $('#mining').addClass('display-none')
+    $('#creatMining').addClass('display-none')
+    $('#creatFighter').addClass('display-none')
+    $('#creatCargo').addClass('display-none')
     // $('.logo').removeClass('display-none')
     // $('#table').addClass('display-none')
     // $('#showTable').addClass('display-none')
