@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ships Battle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
+</head>
+<body>
+    <div class="container" id="mainShow">
+        <!-- ******* Showing the ships information ******* -->
+        <div class="row" id="showShips">
+        </div>
+        <!-- ******* Choosing the ships, No. of rounds and the submit button ******* -->
+        <div class="row" id="chooseShips">
+            <div class="col form-check">
+                <label class="form-check-label" for="ship01">
+                    <input type="checkbox" class="form-check-input" id="ship01" name="option1" value="2">Viking
+                </label>
+            </div>
+            <div class="col form-check">
+                <label class="form-check-label" for="ship02">
+                    <input type="checkbox" class="form-check-input" id="ship02" name="option2" value="3">Babilon
+                </label>
+            </div>
+            <div class="col form-check">
+                <label class="form-check-label" for="ship03">
+                    <input type="checkbox" class="form-check-input" id="ship03" name="option3" value="4">Azetic
+                </label>
+            </div>
+            <input id="rounds" type="number" placeholder="No. of rounds">
+            <button id="start" class="btn btn-primary">Start Battle</button>
+        </div>
+        <!-- ******* Stating the names of the two ships ******* -->
+        <div class="row pt-4 text-center">
+            <div class="col-3"></div>
+            <div class="col-6" id="arenaHeader"></div>
+            <div class="col-3"></div>
+        </div>
+        <!-- ******* Illustrating the battle arena details ******* -->
+        <div class="row pt-4 text-center">
+            <div class="col-3"></div>
+            <div class="col-6" id="arena"></div>
+            <div class="col-3"></div>
+        </div>
+        <!-- ******* Showing the total resutl ******* -->
+        <div class="row pt-4 text-center">
+            <div class="col-3 end"></div>
+            <div class="col-6 end" id="results"></div>
+            <div class="col-3 end"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/models.js"></script>
+    <script src="scripts/arena.js"></script>
+</body>
+</html>

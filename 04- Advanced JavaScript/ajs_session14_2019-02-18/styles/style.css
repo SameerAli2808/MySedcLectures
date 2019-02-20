@@ -1,0 +1,17 @@
+body {
+    background-image: url('../img/Star-Trek-Online-Enterprises.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#showShips, #chooseShips, #arenaHeader, #arena, #rounds {
+    background-color: rgba(240, 255, 255, 0.479);
+}
+
+.end {
+    background-color: rgba(240, 255, 255, 0.479);
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+}
+
