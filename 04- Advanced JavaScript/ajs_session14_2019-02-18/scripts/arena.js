@@ -24,7 +24,7 @@ async function arena(ship01, ship02, round = 5) {
         $("#arena").html(''); // Clearing the arena details area
 
         // Detmining the damage for first ship and calculating the remaining health and shields
-        damage02 = ship01.fireWeapon();
+        let damage02 = ship01.fireWeapon();
         $("#arena").html(`
         <b><i>####### Round No. ${i+1} starts #######</i></b><br>
         <b>${ship01.name}</b> fired it's <i>${ship01.weapon}</i> weapon, and hits ${ship02.name}!<br>
@@ -53,7 +53,7 @@ async function arena(ship01, ship02, round = 5) {
         }
 
         // Detmining the damage for second ship and calculating the remaining health and shields
-        damage01 = ship02.fireWeapon();
+        let damage01 = ship02.fireWeapon();
         $("#arena").append(`
         <b>${ship02.name}</b> fired it's <i>${ship02.weapon}</i> weapon, and hits ${ship01.name}!<br>
         ${ship01.name} got damage of ${damage01}<br>

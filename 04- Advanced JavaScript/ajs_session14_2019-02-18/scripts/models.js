@@ -12,7 +12,7 @@ class ship {
         this.stats = stats;
     }
     fireWeapon() { // Meathode to determine the (damage) value between 10 to 20
-        let damage = Math.floor((Math.random() * 10) + 10);
+        let damage = Math.floor((Math.random() * 10) + 5);
         return damage;
     }
 }

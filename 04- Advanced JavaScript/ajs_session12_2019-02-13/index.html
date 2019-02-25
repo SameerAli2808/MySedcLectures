@@ -14,13 +14,26 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" id='goHome' href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" id='getFighter' href="#">Fighter Ship</a>
+                <a class="nav-item nav-link active" id='goHome' href="#">Creat Ship<span class="sr-only">(current)</span></a>
+                <!-- <a class="nav-item nav-link" id='getFighter' href="#">Fighter Ship</a>
                 <a class="nav-item nav-link" id='getCargo' href="#">Cargo Ship</a>
-                <a class="nav-item nav-link" id='getMining' href="#">Mining Ship</a>
+                <a class="nav-item nav-link" id='getMining' href="#">Mining Ship</a> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Show Ships
+                    </a>
+                    <div class="dropdown-menu" id="chooseShip">
+                        <a class="dropdown-item" id="gfighter" href="#">Fighter</a>
+                        <a class="dropdown-item" id="gcargo" href="#">Cargo</a>
+                        <a class="dropdown-item" id="gmining" href="#">Mining</a>
+                    </div>
+                </li>
+                <a class="nav-item nav-link active" id='goGamimg' href="../ajs_session14_2019-02-18/index.html">Go Gaming<span class="sr-only">(current)</span></a>
             </div>
         </div>
     </nav>
+
+    
 
     <div class="container" id="mainShow">
         <div class="row pt-4 display-none" id="fighter">
@@ -55,30 +68,31 @@
                     <option value="cargo">Cargo</option>
                     <option value="mining">Mining</option>
                 </select>
+                <button class="btn btn-primary" id="submit">Submit</button>
             </form>
             <div class="col-md-6 display-none" id="creatFighter">
-                <input type="text" id="name" placeholder="Ship Name"><br>
-                <input type="text" id="pilot" placeholder="Pilot Name"><br>
-                <input type="text" id="fuleTankCapacity" placeholder="Fule Tank Capacity"><br>
-                <input type="text" id="currentLocation" placeholder="Current Location"><br>
+                <input type="text" id="nameFighter" placeholder="Ship Name"><br>
+                <input type="text" id="pilotFighter" placeholder="Pilot Name"><br>
+                <input type="text" id="fuleTankCapacityFighter" placeholder="Fule Tank Capacity"><br>
+                <input type="text" id="currentLocationFighter" placeholder="Current Location"><br>
                 <input type="text" id="weapons" placeholder="Weapons"><br>
                 <input type="text" id="shield" placeholder="Shield"><br>
                 <input type="text" id="numberOfKills" placeholder="Number Of Kills"><br>
             </div>
             <div class="col-md-6 display-none" id="creatCargo">
-                <input type="text" id="name" placeholder="Ship Name"><br>
-                <input type="text" id="pilot" placeholder="Pilot Name"><br>
-                <input type="text" id="fuleTankCapacity" placeholder="Fule Tank Capacity"><br>
-                <input type="text" id="currentLocation" placeholder="Current Location"><br>
+                <input type="text" id="nameCargo" placeholder="Ship Name"><br>
+                <input type="text" id="pilotCargo" placeholder="Pilot Name"><br>
+                <input type="text" id="fuleTankCapacityCargo" placeholder="Fule Tank Capacity"><br>
+                <input type="text" id="currentLocationCargo" placeholder="Current Location"><br>
                 <input type="text" id="cargoCapacity" placeholder="Cargo Capacity"><br>
                 <input type="text" id="tradingRoutManifest" placeholder="Trading Rout Manifest"><br>
                 <input type="text" id="loadingCranes" placeholder="Loading Cranes"><br>
             </div>
             <div class="col-md-6 display-none" id="creatMining">
-                <input type="text" id="name" placeholder="Ship Name"><br>
-                <input type="text" id="pilot" placeholder="Pilot Name"><br>
-                <input type="text" id="fuleTankCapacity" placeholder="Fule Tank Capacity"><br>
-                <input type="text" id="currentLocation" placeholder="Current Location"><br>
+                <input type="text" id="nameMining" placeholder="Ship Name"><br>
+                <input type="text" id="pilotMining" placeholder="Pilot Name"><br>
+                <input type="text" id="fuleTankCapacityMining" placeholder="Fule Tank Capacity"><br>
+                <input type="text" id="currentLocationMining" placeholder="Current Location"><br>
                 <input type="text" id="miningTools" placeholder="Mining Tools"><br>
                 <input type="text" id="miningTypes" placeholder="Mining Types"><br>
                 <input type="text" id="miningStorageCapacity" placeholder="Mining Storage Capacity"><br>
