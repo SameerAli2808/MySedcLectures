@@ -1,0 +1,7 @@
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session02_2019-02-27\csb_s02_hw_p2\csb_s02_hw_p2\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session02_2019-02-27\csb_s02_hw_p2\csb_s02_hw_p2\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session02_2019-02-27\csb_s02_hw_p2\csb_s02_hw_p2\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session02_2019-02-27\csb_s02_hw_p2\csb_s02_hw_p2\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session02_2019-02-27\csb_s02_hw_p2\csb_s02_hw_p2\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session02_2019-02-27\csb_s02_hw_p2\csb_s02_hw_p2\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session02_2019-02-27\csb_s02_hw_p2\csb_s02_hw_p2\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
