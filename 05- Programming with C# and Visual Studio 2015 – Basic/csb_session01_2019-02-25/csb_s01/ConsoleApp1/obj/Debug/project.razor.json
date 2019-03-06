@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "e:\\My Files\\SEDC\\mySedcLectures\\05- Programming with C# and Visual Studio 2015 – Basic\\csb_session01_2019-02-25\\csb_s01\\ConsoleApp1\\ConsoleApp1.csproj",
+  "TargetFramework": "v4.7.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
