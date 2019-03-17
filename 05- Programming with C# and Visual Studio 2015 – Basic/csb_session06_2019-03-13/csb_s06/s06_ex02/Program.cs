@@ -11,12 +11,12 @@ namespace s06_ex02
     {
         static void checking (string name, User[] Users)
         {
-            int counter = 0;
+            int found = 0;
             foreach (var item in Users)
             {
                 if (item.FullName == name)
                 {
-                    counter = 1;
+                    found = 1;
                     for (int i = 0; i < item.Messeges.Length; i++)
                     {
                         Console.WriteLine(item.Messeges[i]);
@@ -24,7 +24,7 @@ namespace s06_ex02
                 }
             }
 
-            if(counter != 1)
+            if(found == 0)
             {
                 Console.WriteLine("The user name is not excest in our datbase!");
                 Console.WriteLine("Would you like to be regeistered? (y/n)");
@@ -88,7 +88,7 @@ namespace s06_ex02
             Users[2] = new User(03, "Mustafa", "Raheem", new string[] { "Hello", "Hey", "Hi" });
             Users[2].SetPassword("12345678");
 
-            Console.WriteLine("Enter your  full name!");
+            Console.WriteLine("Enter your full name!");
             string name = Console.ReadLine();
 
             checking(name, Users);

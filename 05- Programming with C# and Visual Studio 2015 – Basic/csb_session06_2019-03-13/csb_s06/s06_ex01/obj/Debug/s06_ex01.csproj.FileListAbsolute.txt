@@ -4,3 +4,10 @@ E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 �
 E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session05_2019-03-11\csb_s06\s06_ex01\obj\Debug\s06_ex01.csproj.CoreCompileInputs.cache
 E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session05_2019-03-11\csb_s06\s06_ex01\obj\Debug\s06_ex01.exe
 E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session05_2019-03-11\csb_s06\s06_ex01\obj\Debug\s06_ex01.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session06_2019-03-13\csb_s06\s06_ex01\bin\Debug\s06_ex01.exe.config
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session06_2019-03-13\csb_s06\s06_ex01\bin\Debug\s06_ex01.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session06_2019-03-13\csb_s06\s06_ex01\bin\Debug\s06_ex01.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session06_2019-03-13\csb_s06\s06_ex01\obj\Debug\s06_ex01.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session06_2019-03-13\csb_s06\s06_ex01\obj\Debug\s06_ex01.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session06_2019-03-13\csb_s06\s06_ex01\obj\Debug\s06_ex01.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session06_2019-03-13\csb_s06\s06_ex01\obj\Debug\s06_ex01.pdb

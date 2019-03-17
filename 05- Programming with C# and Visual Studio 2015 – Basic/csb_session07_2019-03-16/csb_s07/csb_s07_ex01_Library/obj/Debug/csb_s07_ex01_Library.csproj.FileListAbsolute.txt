@@ -1,0 +1,7 @@
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session07_2019-03-16\csb_s07\csb_s07_ex01_Library\obj\Debug\csb_s07_ex01_Library.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session07_2019-03-16\csb_s07\csb_s07_ex01_Library\obj\Debug\csb_s07_ex01_Library.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session07_2019-03-16\csb_s07\csb_s07_ex01_Library\bin\Debug\csb_s07_ex01_Library.exe.config
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session07_2019-03-16\csb_s07\csb_s07_ex01_Library\bin\Debug\csb_s07_ex01_Library.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session07_2019-03-16\csb_s07\csb_s07_ex01_Library\bin\Debug\csb_s07_ex01_Library.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session07_2019-03-16\csb_s07\csb_s07_ex01_Library\obj\Debug\csb_s07_ex01_Library.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session07_2019-03-16\csb_s07\csb_s07_ex01_Library\obj\Debug\csb_s07_ex01_Library.pdb
