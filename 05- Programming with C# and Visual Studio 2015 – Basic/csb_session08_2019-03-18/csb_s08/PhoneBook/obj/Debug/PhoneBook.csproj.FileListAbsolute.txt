@@ -1,0 +1,7 @@
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\PhoneBook\bin\Debug\PhoneBook.exe.config
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\PhoneBook\bin\Debug\PhoneBook.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\PhoneBook\bin\Debug\PhoneBook.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\PhoneBook\obj\Debug\PhoneBook.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\PhoneBook\obj\Debug\PhoneBook.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\PhoneBook\obj\Debug\PhoneBook.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\PhoneBook\obj\Debug\PhoneBook.pdb

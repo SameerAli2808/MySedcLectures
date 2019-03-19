@@ -1,0 +1,7 @@
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\csb_s08_lecture\bin\Debug\csb_s08_lecture.exe.config
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\csb_s08_lecture\bin\Debug\csb_s08_lecture.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\csb_s08_lecture\bin\Debug\csb_s08_lecture.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\csb_s08_lecture\obj\Debug\csb_s08_lecture.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\csb_s08_lecture\obj\Debug\csb_s08_lecture.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\csb_s08_lecture\obj\Debug\csb_s08_lecture.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\csb_s08_lecture\obj\Debug\csb_s08_lecture.pdb

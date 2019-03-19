@@ -31,55 +31,54 @@ namespace s06_ex02
                 string choice = Console.ReadLine();
                 if(choice == "y")
                 {
-                    Register(Users);
+                    Register(Users, Users.Length);
                 }
             }
         }
 
-        static void Register(User[] Users)
+        static void Register(User[] Users, int tt)
         {
-            int index = Users.Length;
-            Array.Resize(ref Users, index + 1);
+            tt++;
+            Array.Resize<User>(ref Users, tt+1);
             Console.WriteLine("Enter your id");
-            Users[index-1].Id = int.Parse(Console.ReadLine());
+            Users[tt].Id = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter your first name!");
-            Users[index-1].FirstName = Console.ReadLine();
+            Users[tt].FirstName = Console.ReadLine();
 
             Console.WriteLine("Enter your last name!");
-            Users[index-1].LastName = Console.ReadLine();
+            Users[tt].LastName = Console.ReadLine();
 
             Console.WriteLine("Enter your password!");
-            Users[index-1].SetPassword(Console.ReadLine());
+            Users[tt].SetPassword(Console.ReadLine());
 
             Console.WriteLine("Enter your first messege!");
-            Users[index-1].Messeges[0] = Console.ReadLine();
+            Users[tt].Messeges[0] = Console.ReadLine();
             Console.WriteLine("Enter your second messege!");
-            Users[index-1].Messeges[1] = Console.ReadLine();
+            Users[tt].Messeges[1] = Console.ReadLine();
             Console.WriteLine("Enter your third messege!");
-            Users[index-1].Messeges[2] = Console.ReadLine();
+            Users[tt].Messeges[2] = Console.ReadLine();
 
-            showNames(Users);
+            Console.WriteLine("Id: {0}, Full name: {1}, Password: {2}", Users[tt].Id, Users[tt].FullName, Users[tt].Password);
+            //showNames(Users);
         }
 
         static void showNames(User[] Users)
         {
-            foreach (var item in Users)
+            for(int t = 0; t < Users.Length; t++)
             {
-                Console.WriteLine("Id: {0}", item.Id);
-                Console.WriteLine("Full name: {0}", item.FullName);
-                Console.WriteLine("Password: {0}", item.Password);
-                for (int i = 0; i < item.Messeges.Length; i++)
+                Console.WriteLine("Id: {0}, Full name: {1}, Password: {2}", Users[t].Id, Users[t].FullName, Users[t].Password);
+                for (int j = 0; j < Users[t].Messeges.Length; j++)
                 {
-                    Console.WriteLine(item.Messeges[i]);
+                    Console.WriteLine(Users[t].Messeges[j]);
                 }
+                Console.WriteLine("");
             }
         }
 
         static void Main(string[] args)
         {
             User[] Users = new User[3];
-
 
             Users[0] = new User(01, "Sameer", "Ali", new string[] { "Hello", "Hey", "Hi" });
             Users[0].SetPassword("12345678");
@@ -92,6 +91,7 @@ namespace s06_ex02
             string name = Console.ReadLine();
 
             checking(name, Users);
+            showNames(Users);
 
             Console.ReadLine();
 
