@@ -1,0 +1,10 @@
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\bin\Debug\MovieRaiting.exe.config
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\bin\Debug\MovieRaiting.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\bin\Debug\MovieRaiting.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\bin\Debug\MovieRaiting_ClassLibrary.dll
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\bin\Debug\MovieRaiting_ClassLibrary.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\obj\Debug\MovieRaiting.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\obj\Debug\MovieRaiting.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\obj\Debug\MovieRaiting.csproj.CopyComplete
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\obj\Debug\MovieRaiting.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session09_2019-03-20\MovieRating\MovieRaiting\obj\Debug\MovieRaiting.pdb

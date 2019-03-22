@@ -9,14 +9,14 @@ namespace FavSongs_ClassLibrary
     public class Song
     {
         public string Tilte { get; set; }
-        public DateTime SongLength { get; set; }
-        public Gener Gener { get; set; }
+        public int SongLength { get; set; }
+        public Genre Genre { get; set; }
 
-        public Song(string title, DateTime songLength, Gener gener)
+        public Song(string title, int songLength, Genre genre)
         {
             Tilte = title;
             SongLength = songLength;
-            Gener = gener;
+            Genre = genre;
         }
     }
 }

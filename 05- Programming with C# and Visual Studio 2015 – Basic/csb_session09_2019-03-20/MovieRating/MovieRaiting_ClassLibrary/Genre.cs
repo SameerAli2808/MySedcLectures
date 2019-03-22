@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FavSongs_ClassLibrary
+namespace MovieRaiting_ClassLibrary
 {
     public enum Genre
     {
-        Rock,
-        Hip_Hop,
-        Techno,
-        Classical
+        Comedy,
+        Horror,
+        Action,
+        Drama,
+        SciFi
     }
 }

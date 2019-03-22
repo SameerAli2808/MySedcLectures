@@ -14,10 +14,10 @@ namespace FavSongs_ClassLibrary
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
-        public Gener FavoriteMusicType { get; set; }
+        public Genre FavoriteMusicType { get; set; }
         public List<Song> FavoriteSongs { get; set; }
 
-        public Person(int id, string firstName, string lastName, int age, Gener favoriteMusicType, List<Song> favoriteSongs)
+        public Person(int id, string firstName, string lastName, int age, Genre favoriteMusicType, List<Song> favoriteSongs)
         {
             Id = id;
             FirstName = firstName;
@@ -27,6 +27,13 @@ namespace FavSongs_ClassLibrary
             FavoriteSongs = new List<Song>();
         }
 
+        public Person(string firstName, string lastName, int age, Genre favoriteMusicType)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Age = age;
+            FavoriteMusicType = favoriteMusicType;
+        }
 
         public void GetFavSongs()
         {
@@ -39,7 +46,7 @@ namespace FavSongs_ClassLibrary
             }
             else
             {
-                Console.WriteLine("{0} {1} doesn't like {2}", FirstName, LastName, FavoriteMusicType)
+                Console.WriteLine("{0} {1} doesn't like {2}", FirstName, LastName, FavoriteMusicType);
             }
         }
 

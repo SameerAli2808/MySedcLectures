@@ -1,0 +1,6 @@
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\FavSongs_ClassLibrary\obj\Debug\FavSongs_ClassLibrary.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\FavSongs_ClassLibrary\obj\Debug\FavSongs_ClassLibrary.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\FavSongs_ClassLibrary\bin\Debug\FavSongs_ClassLibrary.dll
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\FavSongs_ClassLibrary\bin\Debug\FavSongs_ClassLibrary.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\FavSongs_ClassLibrary\obj\Debug\FavSongs_ClassLibrary.dll
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session08_2019-03-18\csb_s08\FavSongs_ClassLibrary\obj\Debug\FavSongs_ClassLibrary.pdb

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FavSongs_ClassLibrary
+namespace csb_s09_lecture
 {
-    public enum Genre
+    class Program
     {
-        Rock,
-        Hip_Hop,
-        Techno,
-        Classical
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
