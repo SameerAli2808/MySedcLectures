@@ -12,7 +12,7 @@ namespace AcademyModels
 
         public Entity(int id)
         {
-            id = id;
+            Id = id;
         }
 
 

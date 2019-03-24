@@ -1,0 +1,12 @@
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\bin\Debug\AcademyApp_ClassLibrary.dll
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\bin\Debug\DataLayer.dll
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\bin\Debug\AcademyApp_ClassLibrary.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\bin\Debug\DataLayer.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\obj\Debug\AcademyApp.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\obj\Debug\AcademyApp.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\obj\Debug\AcademyApp.csproj.CopyComplete
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

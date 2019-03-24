@@ -1,0 +1,9 @@
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\bin\Debug\DataLayer.dll
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\bin\Debug\DataLayer.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\bin\Debug\AcademyApp_ClassLibrary.dll
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\bin\Debug\AcademyApp_ClassLibrary.pdb
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\obj\Debug\DataLayer.dll
+E:\My Files\SEDC\mySedcLectures\05- Programming with C# and Visual Studio 2015 – Basic\csb_session10_2019-03-23\AcademyApp\DataLayer\obj\Debug\DataLayer.pdb

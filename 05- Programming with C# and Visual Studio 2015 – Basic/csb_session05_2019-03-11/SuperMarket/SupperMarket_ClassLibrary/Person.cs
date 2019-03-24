@@ -13,6 +13,7 @@ namespace SupperMarket_ClassLibrary
         public string DateOfBirth { get; set; }
         public string SocialSecurityNumber { get; set; }
         public string LoyalBuyerCard { get; set; }
+        public Role Role { get; set; }
 
         public Person()
         {
@@ -26,12 +27,13 @@ namespace SupperMarket_ClassLibrary
             LoyalBuyerCard = $"LBC{randNo}";
         }
 
-        public Person(string firstName, string lastName, string dateOfBirth, string socialSecurityNumber)
+        public Person(string firstName, string lastName, string dateOfBirth, string socialSecurityNumber, Role role)
         {
             FirstName = firstName;
             LastName = lastName;
             DateOfBirth = dateOfBirth;
             SocialSecurityNumber = socialSecurityNumber;
+            Role = role;
         }
     }
 }

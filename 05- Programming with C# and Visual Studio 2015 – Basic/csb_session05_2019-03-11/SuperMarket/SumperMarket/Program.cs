@@ -27,7 +27,20 @@ namespace SumperMarket
                 tulumba,
                 wholenuts,
             };
-            
+
+            Console.WriteLine("Enter your first name");
+            string firstName = Console.ReadLine();
+
+            Console.WriteLine("Enter your last name");
+            string lastName = Console.ReadLine();
+
+            Console.WriteLine("Enter your date of birth");
+            string dateOfBirth = Console.ReadLine();
+
+            Console.WriteLine("Enter your social secure number");
+            string socialSecurityNumber = Console.ReadLine();
+
+            Person person = new Person(firstName, lastName, dateOfBirth, socialSecurityNumber, Role.Buyer);
 
         }
     }

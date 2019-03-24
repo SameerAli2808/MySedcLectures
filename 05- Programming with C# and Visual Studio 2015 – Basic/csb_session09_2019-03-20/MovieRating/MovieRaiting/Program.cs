@@ -25,63 +25,62 @@ namespace MovieRaiting
             switch (chooseList)
             {
                 case "1":
-                    Console.WriteLine("");
-                    Console.WriteLine("The list of all movies in {0} is:", cinema.Name);
                     moviesGenre = cinema.ListOfMovies;
-                    for (int i = 0; i < moviesGenre.Count; i++)
-                    {
-                        Console.WriteLine("{0}:: {1}", i + 1, cinema.ListOfMovies[i].Title);
-                    };
+                    printInfo("All", Genre.Action, cinema, moviesGenre);
+
+                    //Console.WriteLine("");
+                    //Console.WriteLine("The list of all movies in {0} is:", cinema.Name);
+                    //moviesGenre = cinema.ListOfMovies;
+                    //for (int i = 0; i < moviesGenre.Count; i++)
+                    //{
+                    //    Console.WriteLine("{0}:: {1}", i + 1, cinema.ListOfMovies[i].Title);
+                    //};
                     break;
                 case "2":
-                    Console.WriteLine("");
-                    Console.WriteLine("The list of Comedy movies in {0} is:", cinema.Name);
                     moviesGenre = cinema.ListOfMovies.Where(x => x.Genre == Genre.Comedy).ToList();
-                    for (int i = 0; i < moviesGenre.Count; i++)
-                    {
-                        Console.WriteLine("{0}:: {1}", i + 1, moviesGenre[i].Title);
-                    };
+                    printInfo("Comedy", Genre.Comedy, cinema, moviesGenre);
+
+                    //Console.WriteLine("");
+                    //Console.WriteLine("The list of Comedy movies in {0} is:", cinema.Name);
+                    
+                    //for (int i = 0; i < moviesGenre.Count; i++)
+                    //{
+                    //    Console.WriteLine("{0}:: {1}", i + 1, moviesGenre[i].Title);
+                    //};
                     break;
                 case "3":
-                    Console.WriteLine("");
-                    Console.WriteLine("The list of Horror movies in {0} is:", cinema.Name);
                     moviesGenre = cinema.ListOfMovies.Where(x => x.Genre == Genre.Horror).ToList();
-                    for (int i = 0; i < moviesGenre.Count; i++)
-                    {
-                        Console.WriteLine("{0}:: {1}", i + 1, moviesGenre[i].Title);
-                    };
+                    printInfo("Horror", Genre.Horror, cinema, moviesGenre);
                     break;
                 case "4":
-                    Console.WriteLine("");
-                    Console.WriteLine("The list of Action movies in {0} is:", cinema.Name);
                     moviesGenre = cinema.ListOfMovies.Where(x => x.Genre == Genre.Action).ToList();
-                    for (int i = 0; i < moviesGenre.Count; i++)
-                    {
-                        Console.WriteLine("{0}:: {1}", i + 1, moviesGenre[i].Title);
-                    };
+                    printInfo("Action", Genre.Action, cinema, moviesGenre);
                     break;
                 case "5":
-                    Console.WriteLine("");
-                    Console.WriteLine("The list of Drama movies in {0} is:", cinema.Name);
                     moviesGenre = cinema.ListOfMovies.Where(x => x.Genre == Genre.Drama).ToList();
-                    for (int i = 0; i < moviesGenre.Count; i++)
-                    {
-                        Console.WriteLine("{0}:: {1}", i + 1, moviesGenre[i].Title);
-                    };
+                    printInfo("Drama", Genre.Drama, cinema, moviesGenre);
                     break;
                 case "6":
-                    Console.WriteLine("");
-                    Console.WriteLine("The list of SciFi movies in {0} is:", cinema.Name);
                     moviesGenre = cinema.ListOfMovies.Where(x => x.Genre == Genre.SciFi).ToList();
-                    for (int i = 0; i < moviesGenre.Count; i++)
-                    {
-                        Console.WriteLine("{0}:: {1}", i + 1, moviesGenre[i].Title);
-                    };
+                    printInfo("Drama", Genre.Drama, cinema, moviesGenre);
                     break;
                 default:
                     showMovies(cinema);
                     break;
             }
+
+            
+            
+        }
+
+        public static void printInfo(string genreName, Genre genre, Cinema cinema, List<Movie> moviesGenre)
+        {
+            Console.WriteLine("");
+            Console.WriteLine("The list of {0} movies in {0} is:", genreName, cinema.Name);
+            for (int i = 0; i < moviesGenre.Count; i++)
+            {
+                Console.WriteLine("{0}:: {1}", i + 1, cinema.ListOfMovies[i].Title);
+            };
 
             int movieTitle = 0;
 
@@ -97,7 +96,6 @@ namespace MovieRaiting
                 }
 
             } while (movieTitle > moviesGenre.Count || movieTitle <= 0);
-            
         }
 
         static void Main(string[] args)
