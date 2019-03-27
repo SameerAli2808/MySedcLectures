@@ -190,14 +190,18 @@ namespace ConsoleApp1
                     string studentChoice = Console.ReadLine();
                     if (studentChoice == "1")
                     {
-                        //foreach (var item in student)
-                        //{
-                            foreach (var sub in student.Subjects.Keys)
+                        foreach (var item in UsersList)
+                        {
+                            foreach (var sub in item.Subjects)
                             {
+                                foreach (var value in sub)
+                                {
+
+                                }
                                 Console.Write(Student.subjectName(sub.ToString()) + " ");
                                 Console.WriteLine(UsersList.Count(x => x.Role == Role.Student && x.Subjects.Values.ToString() != "-1"));
                             }
-                        //}
+                        }
 
                         Console.WriteLine("Choose a subject:");
                         var subjectSelectedString = Console.ReadLine();
