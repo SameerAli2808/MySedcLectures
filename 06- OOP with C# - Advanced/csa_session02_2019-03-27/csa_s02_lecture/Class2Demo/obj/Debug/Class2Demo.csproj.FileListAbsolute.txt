@@ -1,0 +1,7 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session02_2019-03-27\csa_s02_lecture\Class2Demo\bin\Debug\Class2Demo.exe.config
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session02_2019-03-27\csa_s02_lecture\Class2Demo\bin\Debug\Class2Demo.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session02_2019-03-27\csa_s02_lecture\Class2Demo\bin\Debug\Class2Demo.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session02_2019-03-27\csa_s02_lecture\Class2Demo\obj\Debug\Class2Demo.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session02_2019-03-27\csa_s02_lecture\Class2Demo\obj\Debug\Class2Demo.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session02_2019-03-27\csa_s02_lecture\Class2Demo\obj\Debug\Class2Demo.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session02_2019-03-27\csa_s02_lecture\Class2Demo\obj\Debug\Class2Demo.pdb
