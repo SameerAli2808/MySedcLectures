@@ -1,0 +1,14 @@
+C:\Users\Sameer Ali\Desktop\sedc7-06-csharpadvanced\g6\CSharpAdvanced - Class4 (Workshop)\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.csprojAssemblyReference.cache
+C:\Users\Sameer Ali\Desktop\sedc7-06-csharpadvanced\g6\CSharpAdvanced - Class4 (Workshop)\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.csproj.CoreCompileInputs.cache
+C:\Users\Sameer Ali\Desktop\sedc7-06-csharpadvanced\g6\CSharpAdvanced - Class4 (Workshop)\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.exe.config
+C:\Users\Sameer Ali\Desktop\sedc7-06-csharpadvanced\g6\CSharpAdvanced - Class4 (Workshop)\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.exe
+C:\Users\Sameer Ali\Desktop\sedc7-06-csharpadvanced\g6\CSharpAdvanced - Class4 (Workshop)\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.pdb
+C:\Users\Sameer Ali\Desktop\sedc7-06-csharpadvanced\g6\CSharpAdvanced - Class4 (Workshop)\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.exe
+C:\Users\Sameer Ali\Desktop\sedc7-06-csharpadvanced\g6\CSharpAdvanced - Class4 (Workshop)\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session04_2019-04-03\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.exe.config
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session04_2019-04-03\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session04_2019-04-03\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session04_2019-04-03\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session04_2019-04-03\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session04_2019-04-03\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session04_2019-04-03\CSharpAdvanced-Class4-Excercise (initial code base)\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.pdb
