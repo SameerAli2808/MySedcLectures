@@ -12,6 +12,8 @@ namespace CSharpAdvanced_Class4
     public class Configuration : Item, IPrice, IDiscont
     {
         public Colors BoxColor { get; set; }
+        public int Quantity { get; set; }
+
         private List<Part> _parts = new List<Part>();
         private List<Module> _modules = new List<Module>();
         public List<Part> Parts { get; set; }

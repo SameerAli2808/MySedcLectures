@@ -93,6 +93,28 @@ namespace CSharpAdvanced_Class4
 
             #endregion
 
+            #region
+
+            Room room01 = new Room();
+            room01.Name = "Petra";
+            room01.AddConfigrationToRoom(pc1, 20);
+
+            //add parts to configuration
+            room01.AddPartToRoom(p15, 5); //Monitors x2
+            room01.AddPartToRoom(p17, 10); //RAM
+            room01.AddPartToRoom(p18, 10); //Graphic card
+            room01.AddPartToRoom(p20, 10); //Motherboard
+            room01.AddPartToRoom(p19, 5); //CPU
+            room01.AddPartToRoom(p21, 5); //PC box
+
+            Console.WriteLine(room01.Name);
+            Console.WriteLine(room01.GetPriceWithDiscount());
+            room01.SetDiscount(7); // 7%
+
+            #endregion
+
+
+
 
             Console.ReadLine();
         }
