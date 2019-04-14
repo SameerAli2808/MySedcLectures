@@ -1,0 +1,6 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache

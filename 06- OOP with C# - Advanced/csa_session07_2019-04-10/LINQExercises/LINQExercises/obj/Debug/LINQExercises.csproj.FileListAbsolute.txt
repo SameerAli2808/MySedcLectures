@@ -1,0 +1,10 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\obj\Debug\LINQExercises.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\obj\Debug\LINQExercises.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\bin\Debug\LINQExercises.exe.config
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\bin\Debug\LINQExercises.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\bin\Debug\LINQExercises.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\bin\Debug\ClassLibrary.dll
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\bin\Debug\ClassLibrary.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\obj\Debug\LINQExercises.csproj.CopyComplete
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\obj\Debug\LINQExercises.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session07_2019-04-10\LINQExercises\LINQExercises\obj\Debug\LINQExercises.pdb
