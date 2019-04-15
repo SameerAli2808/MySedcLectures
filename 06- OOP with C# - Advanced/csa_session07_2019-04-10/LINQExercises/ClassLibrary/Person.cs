@@ -51,12 +51,26 @@ namespace ClassLibrary
             return false;
         }
 
-        public void SameRace(List<Person> nameList, Race race)
+        public static void SameRace(List<Person> nameList, Race race)
         {
-            var abc = nameList.OrderBy(p => p.FirstName.Count() + p.LastName.Count()).ToList();
-            foreach (var item in abc)
+            if (nameList.Count() > 0)
             {
-                Console.WriteLine("{0} {1}", item.FirstName, item.LastName);
+                Console.WriteLine("");
+                Console.WriteLine("Race:: {0} #####", race);
+                Console.WriteLine("--------- Name lenght - Asc. --------");
+                var abc = nameList.OrderBy(p => p.FirstName.Count() + p.LastName.Count()).ToList();
+                foreach (var item in abc)
+                {
+                    Console.WriteLine("{0} {1}", item.FirstName, item.LastName);
+                }
+
+                Console.WriteLine("--------- Age - Des. --------");
+
+                var def = nameList.OrderByDescending(p => p.Age).ToList();
+                foreach (var item in def)
+                {
+                    Console.WriteLine("{0} {1} is {2} years old", item.FirstName, item.LastName, item.Age);
+                }
             }
         }
 

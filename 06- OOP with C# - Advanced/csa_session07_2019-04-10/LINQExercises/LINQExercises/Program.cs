@@ -228,7 +228,7 @@ namespace LINQExercises
 
             var PeopleWithR = people.Where(p => p.FirstName.StartsWith("E")).OrderByDescending(p => p.Age).ToList();
 
-            Console.WriteLine("--------- People starts with R - Des. --------");
+            Console.WriteLine("1. :: --------- People starts with E - Des. --------");
 
             foreach (var person in PeopleWithR)
             {
@@ -239,7 +239,8 @@ namespace LINQExercises
 
             var BrownDogsOlder3 = dogs.Where(d => d.Color == Color.Brown && d.Age > 3).OrderByDescending(d => d.Age).Reverse().ToList();
 
-            Console.WriteLine("--------- Brown dogs that older than 3 years old - Asc. --------");
+            Console.WriteLine("");
+            Console.WriteLine("2. :: --------- Brown dogs that older than 3 years old - Asc. --------");
 
             foreach (var dog in BrownDogsOlder3)
             {
@@ -252,8 +253,9 @@ namespace LINQExercises
 
             // We can make short object of the main object by using Select and making the new object with the properties that we want only
             var PeopleWith2Dogs02 = people.Where(p => p.Dogs.Count() > 2).OrderByDescending(p => p.FirstName).Select(p => new { Name = p.FirstName, Last = p.LastName });
-            
-            Console.WriteLine("--------- People with more than 2 dogs - Des. --------");
+
+            Console.WriteLine("");
+            Console.WriteLine("3. :: --------- People with more than 2 dogs - Des. --------");
 
             foreach (var person in PeopleWith2Dogs)
             {
@@ -262,7 +264,8 @@ namespace LINQExercises
 
             // 4. Find and print all persons names, last names and job positions that have just one race type dogs.
 
-            Console.WriteLine("--------- People that have dogs of the same race --------");
+            Console.WriteLine("");
+            Console.WriteLine("4. :: --------- People that have dogs of the same race --------");
 
             foreach (var person in people)
             {
@@ -276,7 +279,8 @@ namespace LINQExercises
 
             var FreddyDogs = Freddy.Dogs.Where(d => d.Age > 1).GroupBy(d => d.Race).ToList();
 
-            Console.WriteLine("--------- Freddy's dogs' names older than 1 year, grouped by race --------");
+            Console.WriteLine("");
+            Console.WriteLine("5. :: --------- Freddy's dogs' names older than 1 year, grouped by race --------");
             // Loop over groups.
             foreach (var group in FreddyDogs)
             {
@@ -293,7 +297,8 @@ namespace LINQExercises
 
             var LastTen = people.Skip(people.Count() - 10).GroupBy(p => p.Age).ToList().OrderBy(p => p.Key);
 
-            Console.WriteLine("--------- Last 10 people grouped by their age --------");
+            Console.WriteLine("");
+            Console.WriteLine("6. :: --------- Last 10 people grouped by their age --------");
 
             // Loop over groups.
             foreach (var group in LastTen)
@@ -310,7 +315,8 @@ namespace LINQExercises
 
             var DogsByColor = Cristofer.Dogs.Concat(Freddy.Dogs).Concat(Erin.Dogs).Concat(Amelia.Dogs).ToList().GroupBy(d => d.Color);
 
-            Console.WriteLine("--------- Dogs grouped by color and ordered by Names - Asc. --------");
+            Console.WriteLine("");
+            Console.WriteLine("7. :: --------- Dogs grouped by color and ordered by Names - Asc. --------");
 
             // Loop over groups.
             foreach (var group in DogsByColor)
@@ -326,6 +332,11 @@ namespace LINQExercises
             }
 
             // 8. Find persons that have same dogs races and order them by name length ASCENDING, then by age DESCENDING.
+
+            //foreach (var item in Race)
+            //{
+
+            //}
 
             var BoxerDogs = new List<Person>();
             var BulldogDogs = new List<Person>();
@@ -409,35 +420,25 @@ namespace LINQExercises
                 }
             }
 
-            // Couldn't call the methode that I made in Person class, don't know why???
+            Console.WriteLine("");
+            Console.WriteLine("8. :: --------- People that have dogs of the same race --------");
 
-            Console.WriteLine("--------- People that have dogs of the same race - Name lenght Asc. --------");
-
-            var BoxerOwnerNameLenght = BoxerDogs.OrderBy(p => p.FirstName.Count() + p.LastName.Count()).ToList();
-            var BulldogOwnerNameLenght = BulldogDogs.OrderBy(p => p.FirstName.Count() + p.LastName.Count()).ToList();
-
-            foreach (var item in BoxerOwnerNameLenght)
-            {
-                Console.WriteLine("{0} {1}", item.FirstName, item.LastName);
-            }
-            foreach (var item in BulldogOwnerNameLenght)
-            {
-                Console.WriteLine("{0} {1}", item.FirstName, item.LastName);
-            }
-
-            Console.WriteLine("--------- People that have dogs of the same race - Age Des. --------");
-
-            var BoxerOwnerAge = BoxerDogs.OrderByDescending(p => p.Age).ToList();
-            var BulldogOwnerAge = BulldogDogs.OrderByDescending(p => p.Age).ToList();
-
-            foreach (var item in BoxerOwnerAge)
-            {
-                Console.WriteLine("{0} {1} is {2} years old", item.FirstName, item.LastName, item.Age);
-            }
-            foreach (var item in BulldogOwnerAge)
-            {
-                Console.WriteLine("{0} {1} is {2} years old", item.FirstName, item.LastName, item.Age);
-            }
+            Person.SameRace(BoxerDogs, Race.Boxer);
+            Person.SameRace(BulldogDogs, Race.Bulldog);
+            Person.SameRace(CollieDogs, Race.Collie);
+            Person.SameRace(DalmatianDogs, Race.Dalmatian);
+            Person.SameRace(DobermanDogs, Race.Doberman);
+            Person.SameRace(MuttDogs, Race.Mutt);
+            Person.SameRace(MudiDogs, Race.Mudi);
+            Person.SameRace(PointerDogs, Race.Pointer);
+            Person.SameRace(PugDogs, Race.Pug);
+            Person.SameRace(PlottDogs, Race.Plott);
+            Person.SameRace(HuskyDogs, Race.Husky);
+            Person.SameRace(CockerDogs, Race.Cocker);
+            Person.SameRace(ChihuahuaDogs, Race.Chihuahua);
+            Person.SameRace(RetrieverDogs, Race.Retriever);
+            Person.SameRace(InuDogs, Race.Inu);
+            Person.SameRace(MastiffDogs, Race.Mastiff);
 
             // 9. Find the last dog of Amelia and print all dogs form other persons older than Amelia, ordered by dogs age DESCENDING.
 
@@ -460,16 +461,25 @@ namespace LINQExercises
 
             var AllDogsOlderDes = AllDogsOlder.OrderByDescending(d => d.Age).ToList();
 
-            Console.WriteLine("--------- Dogs older than Amellia's last dog - Des. --------");
+            Console.WriteLine("");
+            Console.WriteLine("9. :: --------- Dogs older than Amellia's last dog - Des. --------");
 
-            foreach (var item in AllDogsOlderDes)
+            if (AllDogsOlder.Count() > 0)
             {
-                Console.WriteLine(item.Name);
+                foreach (var item in AllDogsOlderDes)
+                {
+                    Console.WriteLine(item.Name);
+                }
+            }
+            else
+            {
+                Console.WriteLine("There's no dog older than Amellia's last dog!");
             }
 
             // 10. Find all developers older than 20 with more than 1 dog that contains letter 'e' in the name and print their names and job positions.
 
-            Console.WriteLine("--------- Developers older than 20 with a dog has e in its name --------");
+            Console.WriteLine("");
+            Console.WriteLine("10. :: --------- Developers older than 20 with a dog has e in its name --------");
 
             var AllDevelopers = new List<Person>();
             foreach (var item in people)
