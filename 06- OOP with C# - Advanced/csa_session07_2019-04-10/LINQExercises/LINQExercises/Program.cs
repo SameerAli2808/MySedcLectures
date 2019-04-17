@@ -275,6 +275,16 @@ namespace LINQExercises
                 }
             }
 
+            //Other way of solving by using only Linq ...............
+            var FancyResult = people.Where(p => p.Dogs != null)
+                                    .Select(p => new { FirstName = p.FirstName, DifferentDogRaces = p.Dogs.Select(d => d.Race).Distinct() })
+                                    .Where(c => c.DifferentDogRaces.Count() == 1).ToList();
+
+            foreach (var item in FancyResult)
+            {
+                Console.WriteLine(item.FirstName);
+            }
+
             // 5. Find and print all Freddy`s dogs names older than 1 year, grouped by dogs race.
 
             var FreddyDogs = Freddy.Dogs.Where(d => d.Age > 1).GroupBy(d => d.Race).ToList();
@@ -333,10 +343,12 @@ namespace LINQExercises
 
             // 8. Find persons that have same dogs races and order them by name length ASCENDING, then by age DESCENDING.
 
-            //foreach (var item in Race)
-            //{
+            
 
-            //}
+            foreach (var item in Enum.GetValues(typeof(Race)))
+            {
+
+            }
 
             var BoxerDogs = new List<Person>();
             var BulldogDogs = new List<Person>();

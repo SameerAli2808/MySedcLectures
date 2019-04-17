@@ -1,0 +1,7 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session08_2019-04-15\Events&Delegates\Results\bin\Debug\Results.exe.config
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session08_2019-04-15\Events&Delegates\Results\bin\Debug\Results.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session08_2019-04-15\Events&Delegates\Results\bin\Debug\Results.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session08_2019-04-15\Events&Delegates\Results\obj\Debug\Results.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session08_2019-04-15\Events&Delegates\Results\obj\Debug\Results.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session08_2019-04-15\Events&Delegates\Results\obj\Debug\Results.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session08_2019-04-15\Events&Delegates\Results\obj\Debug\Results.pdb
