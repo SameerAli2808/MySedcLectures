@@ -1,0 +1,6 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\DataFromXml\bin\Debug\DataFromXml.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\DataFromXml\bin\Debug\DataFromXml.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\DataFromXml\obj\Debug\DataFromXml.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\DataFromXml\obj\Debug\DataFromXml.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\DataFromXml\obj\Debug\DataFromXml.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\DataFromXml\obj\Debug\DataFromXml.pdb

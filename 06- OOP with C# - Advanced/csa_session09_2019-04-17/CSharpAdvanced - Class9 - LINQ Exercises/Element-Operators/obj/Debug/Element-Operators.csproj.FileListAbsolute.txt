@@ -1,0 +1,10 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\bin\Debug\Element-Operators.exe.config
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\bin\Debug\Element-Operators.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\bin\Debug\Element-Operators.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\bin\Debug\DataFromXml.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\bin\Debug\DataFromXml.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\obj\Debug\Element-Operators.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\obj\Debug\Element-Operators.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\obj\Debug\Element-Operators.csproj.CopyComplete
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\obj\Debug\Element-Operators.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Element-Operators\obj\Debug\Element-Operators.pdb

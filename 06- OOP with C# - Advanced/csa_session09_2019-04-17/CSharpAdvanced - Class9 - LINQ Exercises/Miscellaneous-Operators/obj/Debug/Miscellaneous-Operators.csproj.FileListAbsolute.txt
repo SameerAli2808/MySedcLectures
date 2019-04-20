@@ -1,0 +1,10 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\bin\Debug\Miscellaneous-Operators.exe.config
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\bin\Debug\Miscellaneous-Operators.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\bin\Debug\Miscellaneous-Operators.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\bin\Debug\DataFromXml.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\bin\Debug\DataFromXml.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\obj\Debug\Miscellaneous-Operators.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\obj\Debug\Miscellaneous-Operators.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\obj\Debug\Miscellaneous-Operators.csproj.CopyComplete
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\obj\Debug\Miscellaneous-Operators.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session09_2019-04-17\CSharpAdvanced - Class9 - LINQ Exercises\Miscellaneous-Operators\obj\Debug\Miscellaneous-Operators.pdb
