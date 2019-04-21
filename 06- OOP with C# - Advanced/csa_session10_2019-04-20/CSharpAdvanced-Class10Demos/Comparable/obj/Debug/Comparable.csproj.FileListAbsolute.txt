@@ -1,0 +1,7 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\Comparable\bin\Debug\Comparable.exe.config
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\Comparable\bin\Debug\Comparable.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\Comparable\bin\Debug\Comparable.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\Comparable\obj\Debug\Comparable.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\Comparable\obj\Debug\Comparable.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\Comparable\obj\Debug\Comparable.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\Comparable\obj\Debug\Comparable.pdb

@@ -1,0 +1,7 @@
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\BoxOperatorsOverloading\bin\Debug\BoxOperatorsOverloading.exe.config
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\BoxOperatorsOverloading\bin\Debug\BoxOperatorsOverloading.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\BoxOperatorsOverloading\bin\Debug\BoxOperatorsOverloading.pdb
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\BoxOperatorsOverloading\obj\Debug\BoxOperatorsOverloading.csprojAssemblyReference.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\BoxOperatorsOverloading\obj\Debug\BoxOperatorsOverloading.csproj.CoreCompileInputs.cache
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\BoxOperatorsOverloading\obj\Debug\BoxOperatorsOverloading.exe
+E:\My Files\SEDC\mySedcLectures\06- OOP with C# - Advanced\csa_session10_2019-04-20\CSharpAdvanced-Class10Demos\BoxOperatorsOverloading\obj\Debug\BoxOperatorsOverloading.pdb
