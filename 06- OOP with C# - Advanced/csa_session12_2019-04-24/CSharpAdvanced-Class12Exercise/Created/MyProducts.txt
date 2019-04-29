@@ -1,0 +1,55 @@
+ID: 1 === Name: HDD === Color: Black === Channel: Local
+          Serial Number: S001PN1 === Build Version: 1
+          Quantity: 10 === Price: $1000.5 === Condition: New
+          Destination Countries: Macedonia, Iraq
+
+ID: 2 === Name: CPU === Color: Gray === Channel: Local
+          Serial Number: S001PN111 === Build Version: 12
+          Quantity: 12 === Price: $500.7 === Condition: Recycled
+          Destination Countries: China, Iraq, Iran, Brazil
+
+ID: 3 === Name: SSD === Color: Gray === Channel: Online
+          Serial Number: S001PN9 === Build Version: 11
+          Quantity: 4 === Price: $780.99 === Condition: New
+          Destination Countries: Macedonia, Hungary
+
+ID: 4 === Name: CPU === Color: Black === Channel: Local
+          Serial Number: S001PN8 === Build Version: 10
+          Quantity: 8 === Price: $800 === Condition: Recycled
+          Destination Countries: Albania, Serbia
+
+ID: 5 === Name: Motherboard === Color: Yellow === Channel: Online
+          Serial Number: S002PN10 === Build Version: 5
+          Quantity: 2 === Price: $1500.5 === Condition: New
+          Destination Countries: Angola, Algeria, American Samoa
+
+ID: 6 === Name: VideoCard === Color: Green === Channel: Online
+          Serial Number: S002PN9 === Build Version: 5
+          Quantity: 9 === Price: $999.99 === Condition: Recycled
+          Destination Countries: Cameroon, Iraq
+
+ID: 7 === Name: PowerSuply === Color: Red === Channel: Local
+          Serial Number: S002PN11 === Build Version: 6
+          Quantity: 1 === Price: $500.65 === Condition: New
+          Destination Countries: Macedonia, Denmark, Norway
+
+ID: 8 === Name: RAM === Color: Green === Channel: Online
+          Serial Number: S003PN1 === Build Version: 3
+          Quantity: 14 === Price: $2700.67 === Condition: Recycled
+          Destination Countries: Romania, Russia, Qatar
+
+ID: 9 === Name: Keyboard === Color: Black === Channel: Online
+          Serial Number: S004PN1 === Build Version: 9
+          Quantity: 6 === Price: $400.44 === Condition: New
+          Destination Countries: Macedonia, Russia, Morocco, Malta
+
+ID: 10 === Name: Mouse === Color: Orange === Channel: Local
+          Serial Number: S005PN234 === Build Version: 2
+          Quantity: 5 === Price: $67.89 === Condition: Recycled
+          Destination Countries: Nigeria, Peru
+
+ID: 11 === Name: Speaker === Color: White === Channel: Local
+          Serial Number: S007PNSG54 === Build Version: 1
+          Quantity: 50 === Price: $2300.11 === Condition: New
+          Destination Countries: Portugal, Poland, Spain
+
