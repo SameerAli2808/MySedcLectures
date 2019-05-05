@@ -47,9 +47,9 @@
     <Compile Include="Enums\Channel.cs" />
     <Compile Include="Enums\Color.cs" />
     <Compile Include="Enums\ProductionCondition.cs" />
-    <Compile Include="Models\ComparerID.cs" />
-    <Compile Include="Models\ComparerQuantity.cs" />
-    <Compile Include="Models\ComparerCountry.cs" />
+    <Compile Include="Comparers\ComparerID.cs" />
+    <Compile Include="Comparers\ComparerQuantity.cs" />
+    <Compile Include="Comparers\ComparerCountry.cs" />
     <Compile Include="Models\MarketValueDetails.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\SerialInfo.cs" />

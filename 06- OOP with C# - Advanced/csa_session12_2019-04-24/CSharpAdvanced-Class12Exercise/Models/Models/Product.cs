@@ -1,5 +1,6 @@
 ﻿using Models.Enums;
 using Models.Models;
+using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +29,7 @@ namespace Models
         {
             Id = id;
             Name = name;
-            Color = color;
+             Color = color;
             Channel = channel;
             SerialInfo = serialInfo;
             MarketValueDetails = marketValueDetails;
@@ -91,7 +92,11 @@ namespace Models
 
         public static bool operator !=(Product p1, Product p2)
         {
-            return true;
+            return false;
+            //return p1.DestinationCountries.Count() == 2 && p2.DestinationCountries.Count() == 2
+            //    && p1.MarketValueDetails.Price > 500 && p2.MarketValueDetails.Price > 500
+            //? false
+            //: true;
         }
 
     }

@@ -29,6 +29,9 @@ namespace MarketStorageManagementSystem
                 new Product(11, "Speaker", Color.White, Channel.Local, new SerialInfo("S007PNSG54", 1), new MarketValueDetails(50, 2300.11), ProductionCondition.New, new List<string>(){ "Portugal", "Poland", "Spain"}),
             };
 
+
+            var a = products[0] != products[1];
+
             #region Product Sorting
             // ************* by Serial Number ****************
             products.Sort();
@@ -106,14 +109,14 @@ namespace MarketStorageManagementSystem
                 xmlSerializer.Serialize(xmlSw, products);
             }
 
-            //// xml object deserialization...
-            //Product proDeserialized;
-            //using (StreamReader xmlSr = new StreamReader(xmlPath))
-            //{
-            //    proDeserialized = (Product)xmlSerializer.Deserialize(xmlSr);
-            //}
-            //Console.WriteLine("xml object deserialized.");
-            //Console.WriteLine(proDeserialized.ToString());
+            // xml object deserialization...
+            List<Product> proDeserialized;
+            using (StreamReader xmlSr = new StreamReader(xmlPath))
+            {
+                proDeserialized = (List<Product>)xmlSerializer.Deserialize(xmlSr);
+            }
+            Console.WriteLine("xml object deserialized.");
+            Console.WriteLine(proDeserialized.ToString());
 
             #endregion
 

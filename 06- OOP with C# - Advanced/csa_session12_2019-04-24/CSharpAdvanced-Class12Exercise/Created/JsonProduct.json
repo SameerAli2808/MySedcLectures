@@ -19,24 +19,22 @@
     ]
   },
   {
-    "Id": 2,
+    "Id": 4,
     "Name": "CPU",
-    "Color": 7,
+    "Color": 2,
     "Channel": 2,
     "SerialInfo": {
-      "SerialNumber": "S001PN111",
-      "BuildVersion": 12
+      "SerialNumber": "S001PN8",
+      "BuildVersion": 10
     },
     "MarketValueDetails": {
-      "Quantity": 12,
-      "Price": 500.7
+      "Quantity": 8,
+      "Price": 800.0
     },
     "ProductionCondition": 2,
     "DestinationCountries": [
-      "China",
-      "Iraq",
-      "Iran",
-      "Brazil"
+      "Albania",
+      "Serbia"
     ]
   },
   {
@@ -59,22 +57,43 @@
     ]
   },
   {
-    "Id": 4,
+    "Id": 2,
     "Name": "CPU",
-    "Color": 2,
+    "Color": 7,
     "Channel": 2,
     "SerialInfo": {
-      "SerialNumber": "S001PN8",
-      "BuildVersion": 10
+      "SerialNumber": "S001PN111",
+      "BuildVersion": 12
     },
     "MarketValueDetails": {
-      "Quantity": 8,
-      "Price": 800.0
+      "Quantity": 12,
+      "Price": 500.7
     },
     "ProductionCondition": 2,
     "DestinationCountries": [
-      "Albania",
-      "Serbia"
+      "China",
+      "Iraq",
+      "Iran",
+      "Brazil"
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "VideoCard",
+    "Color": 3,
+    "Channel": 1,
+    "SerialInfo": {
+      "SerialNumber": "S002PN9",
+      "BuildVersion": 5
+    },
+    "MarketValueDetails": {
+      "Quantity": 9,
+      "Price": 999.99
+    },
+    "ProductionCondition": 2,
+    "DestinationCountries": [
+      "Cameroon",
+      "Iraq"
     ]
   },
   {
@@ -95,25 +114,6 @@
       "Angola",
       "Algeria",
       "American Samoa"
-    ]
-  },
-  {
-    "Id": 6,
-    "Name": "VideoCard",
-    "Color": 3,
-    "Channel": 1,
-    "SerialInfo": {
-      "SerialNumber": "S002PN9",
-      "BuildVersion": 5
-    },
-    "MarketValueDetails": {
-      "Quantity": 9,
-      "Price": 999.99
-    },
-    "ProductionCondition": 2,
-    "DestinationCountries": [
-      "Cameroon",
-      "Iraq"
     ]
   },
   {

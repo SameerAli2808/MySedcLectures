@@ -20,24 +20,22 @@
     </DestinationCountries>
   </Product>
   <Product>
-    <Id>2</Id>
+    <Id>4</Id>
     <Name>CPU</Name>
-    <Color>Gray</Color>
+    <Color>Black</Color>
     <Channel>Local</Channel>
     <SerialInfo>
-      <SerialNumber>S001PN111</SerialNumber>
-      <BuildVersion>12</BuildVersion>
+      <SerialNumber>S001PN8</SerialNumber>
+      <BuildVersion>10</BuildVersion>
     </SerialInfo>
     <MarketValueDetails>
-      <Quantity>12</Quantity>
-      <Price>500.7</Price>
+      <Quantity>8</Quantity>
+      <Price>800</Price>
     </MarketValueDetails>
     <ProductionCondition>Recycled</ProductionCondition>
     <DestinationCountries>
-      <string>China</string>
-      <string>Iraq</string>
-      <string>Iran</string>
-      <string>Brazil</string>
+      <string>Albania</string>
+      <string>Serbia</string>
     </DestinationCountries>
   </Product>
   <Product>
@@ -60,22 +58,43 @@
     </DestinationCountries>
   </Product>
   <Product>
-    <Id>4</Id>
+    <Id>2</Id>
     <Name>CPU</Name>
-    <Color>Black</Color>
+    <Color>Gray</Color>
     <Channel>Local</Channel>
     <SerialInfo>
-      <SerialNumber>S001PN8</SerialNumber>
-      <BuildVersion>10</BuildVersion>
+      <SerialNumber>S001PN111</SerialNumber>
+      <BuildVersion>12</BuildVersion>
     </SerialInfo>
     <MarketValueDetails>
-      <Quantity>8</Quantity>
-      <Price>800</Price>
+      <Quantity>12</Quantity>
+      <Price>500.7</Price>
     </MarketValueDetails>
     <ProductionCondition>Recycled</ProductionCondition>
     <DestinationCountries>
-      <string>Albania</string>
-      <string>Serbia</string>
+      <string>China</string>
+      <string>Iraq</string>
+      <string>Iran</string>
+      <string>Brazil</string>
+    </DestinationCountries>
+  </Product>
+  <Product>
+    <Id>6</Id>
+    <Name>VideoCard</Name>
+    <Color>Green</Color>
+    <Channel>Online</Channel>
+    <SerialInfo>
+      <SerialNumber>S002PN9</SerialNumber>
+      <BuildVersion>5</BuildVersion>
+    </SerialInfo>
+    <MarketValueDetails>
+      <Quantity>9</Quantity>
+      <Price>999.99</Price>
+    </MarketValueDetails>
+    <ProductionCondition>Recycled</ProductionCondition>
+    <DestinationCountries>
+      <string>Cameroon</string>
+      <string>Iraq</string>
     </DestinationCountries>
   </Product>
   <Product>
@@ -96,25 +115,6 @@
       <string>Angola</string>
       <string>Algeria</string>
       <string>American Samoa</string>
-    </DestinationCountries>
-  </Product>
-  <Product>
-    <Id>6</Id>
-    <Name>VideoCard</Name>
-    <Color>Green</Color>
-    <Channel>Online</Channel>
-    <SerialInfo>
-      <SerialNumber>S002PN9</SerialNumber>
-      <BuildVersion>5</BuildVersion>
-    </SerialInfo>
-    <MarketValueDetails>
-      <Quantity>9</Quantity>
-      <Price>999.99</Price>
-    </MarketValueDetails>
-    <ProductionCondition>Recycled</ProductionCondition>
-    <DestinationCountries>
-      <string>Cameroon</string>
-      <string>Iraq</string>
     </DestinationCountries>
   </Product>
   <Product>

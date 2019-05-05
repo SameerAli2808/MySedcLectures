@@ -3,30 +3,30 @@ ID: 1 === Name: HDD === Color: Black === Channel: Local
           Quantity: 10 === Price: $1000.5 === Condition: New
           Destination Countries: Macedonia, Iraq
 
-ID: 2 === Name: CPU === Color: Gray === Channel: Local
-          Serial Number: S001PN111 === Build Version: 12
-          Quantity: 12 === Price: $500.7 === Condition: Recycled
-          Destination Countries: China, Iraq, Iran, Brazil
+ID: 4 === Name: CPU === Color: Black === Channel: Local
+          Serial Number: S001PN8 === Build Version: 10
+          Quantity: 8 === Price: $800 === Condition: Recycled
+          Destination Countries: Albania, Serbia
 
 ID: 3 === Name: SSD === Color: Gray === Channel: Online
           Serial Number: S001PN9 === Build Version: 11
           Quantity: 4 === Price: $780.99 === Condition: New
           Destination Countries: Macedonia, Hungary
 
-ID: 4 === Name: CPU === Color: Black === Channel: Local
-          Serial Number: S001PN8 === Build Version: 10
-          Quantity: 8 === Price: $800 === Condition: Recycled
-          Destination Countries: Albania, Serbia
-
-ID: 5 === Name: Motherboard === Color: Yellow === Channel: Online
-          Serial Number: S002PN10 === Build Version: 5
-          Quantity: 2 === Price: $1500.5 === Condition: New
-          Destination Countries: Angola, Algeria, American Samoa
+ID: 2 === Name: CPU === Color: Gray === Channel: Local
+          Serial Number: S001PN111 === Build Version: 12
+          Quantity: 12 === Price: $500.7 === Condition: Recycled
+          Destination Countries: China, Iraq, Iran, Brazil
 
 ID: 6 === Name: VideoCard === Color: Green === Channel: Online
           Serial Number: S002PN9 === Build Version: 5
           Quantity: 9 === Price: $999.99 === Condition: Recycled
           Destination Countries: Cameroon, Iraq
+
+ID: 5 === Name: Motherboard === Color: Yellow === Channel: Online
+          Serial Number: S002PN10 === Build Version: 5
+          Quantity: 2 === Price: $1500.5 === Condition: New
+          Destination Countries: Angola, Algeria, American Samoa
 
 ID: 7 === Name: PowerSuply === Color: Red === Channel: Local
           Serial Number: S002PN11 === Build Version: 6
