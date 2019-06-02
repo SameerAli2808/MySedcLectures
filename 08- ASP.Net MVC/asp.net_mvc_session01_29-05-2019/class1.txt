@@ -1,0 +1,1 @@
+Create Hello World web application with all posibble variations e.g(.NET Core, .NET Framework) in Visual Studio.
