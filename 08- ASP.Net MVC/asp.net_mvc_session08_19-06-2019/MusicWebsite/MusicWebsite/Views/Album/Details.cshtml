@@ -1,0 +1,135 @@
+﻿
+@model Album
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!-- Preloader -->
+<div class="preloader d-flex align-items-center justify-content-center">
+    <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+<!-- ##### Header Area Start ##### -->
+<header class="header-area">
+    <!-- Navbar Area -->
+    <div class="oneMusic-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                    <!-- Nav brand -->
+                    <a asp-controller="home" asp-action="index" class="nav-brand"><img src="~/img/core-img/logo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a asp-controller="home" asp-action="index">Home</a></li>
+                                <li><a asp-controller="album" asp-action="index">Albums</a></li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                    <ul class="dropdown">
+                                        <li><a asp-controller="home" asp-action="index">Home</a></li>
+                                        <li><a asp-controller="album" asp-action="index">Albums</a></li>
+                                        <li><a href="event.html">Events</a></li>
+                                        <li><a href="blog.html">News</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="elements.html">Elements</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li>
+                                            <a href="#">Dropdown</a>
+                                            <ul class="dropdown">
+                                                <li><a href="#">Even Dropdown</a></li>
+                                                <li><a href="#">Even Dropdown</a></li>
+                                                <li><a href="#">Even Dropdown</a></li>
+                                                <li>
+                                                    <a href="#">Even Dropdown</a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="#">Deeply Dropdown</a></li>
+                                                        <li><a href="#">Deeply Dropdown</a></li>
+                                                        <li><a href="#">Deeply Dropdown</a></li>
+                                                        <li><a href="#">Deeply Dropdown</a></li>
+                                                        <li><a href="#">Deeply Dropdown</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Even Dropdown</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="event.html">Events</a></li>
+                                <li><a href="blog.html">News</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Login/Register & Cart Button -->
+                            <div class="login-register-cart-button d-flex align-items-center">
+                                <!-- Login/Register -->
+                                <div class="login-register-btn mr-50">
+                                    <a href="login.html" id="loginBtn">Login / Register</a>
+                                </div>
+
+                                <!-- Cart Button -->
+                                <div class="cart-btn">
+                                    <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Nav End -->
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ##### Header Area End ##### -->
+<!-- ##### Breadcumb Area Start ##### -->
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(~/img/bg-img/breadcumb3.jpg);">
+    <div class="bradcumbContent">
+        <p>See what’s new</p>
+        <h2>Latest Albums</h2>
+    </div>
+</section>
+<!-- ##### Breadcumb Area End ##### -->
+<!-- ##### Album Catagory Area Start ##### -->
+<section class="album-catagory section-padding-100-0">
+    <div class="container">
+
+        <div class="row oneMusic-albums">
+
+            <!-- Single Album -->
+            <div class="col-12 col-sm-4 col-md-3 col-lg-4 single-album-item t c p">
+                <div class="single-album">
+                    @*<img src=@album.image alt="">*@
+                    <div class="album-info">
+                        <a href="#">
+                            <h5>@Model.MainSinger</h5>
+                        </a>
+                        <p>@Model.Name</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Album Catagory Area End ##### -->

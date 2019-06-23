@@ -1,0 +1,29 @@
+﻿@model  Pizza
+@{
+    Layout = "_Layout";
+}
+
+<h2>@Model.Id</h2>
+<h2>@Model.Name</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*@foreach (Pizza pizza in Model)
+        {*@
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Size</td>
+            <td>@Model.Price</td>
+
+        </tr>
+        }
+    </tbody>
+</table>

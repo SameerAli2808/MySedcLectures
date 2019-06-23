@@ -1,0 +1,19 @@
+﻿
+@model Pizza
+@{
+    Layout = "_Layout";
+}
+
+@*{
+        Layout = "_Layout";
+    }*@
+
+create pizza:
+<form action="/pizza/create" method="post">
+    <input type="text" name="Name" placeholder="Name" />
+    <input type="submit" value="create user" />
+</form>
+
+
+
+<h1>@Model.Name</h1>

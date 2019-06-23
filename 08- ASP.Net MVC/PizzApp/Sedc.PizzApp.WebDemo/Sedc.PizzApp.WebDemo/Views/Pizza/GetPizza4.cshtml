@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetPizza4</title>
+</head>
+<body>
+    <ul>
+        @foreach (var item in ViewBag.Pizzas)
+        {
+            if (item.Length > 4)
+            {
+                <li>@item</li>
+            }
+        }
+    </ul>
+</body>
+</html>

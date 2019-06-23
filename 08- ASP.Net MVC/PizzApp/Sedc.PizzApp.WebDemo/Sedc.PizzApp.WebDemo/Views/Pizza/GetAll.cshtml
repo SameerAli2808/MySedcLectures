@@ -1,16 +1,8 @@
 ﻿
 @{
-    Layout = null;
+    Layout = "_Layout";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>GetAll</title>
-</head>
-<body>
     @*@{
         var pizzas = new List<string>
             {
@@ -19,13 +11,12 @@
             }*@
     <ul>
 
-        @foreach (var pizza in GetAllPizzas())
+        @foreach (var pizza in ViewBag.Pizzas)
         {
             <li>@pizza</li>
         }
     </ul>
-</body>
-</html>
+
 
 @*@functions{ 
     public List<string> GetAllPizzas()
