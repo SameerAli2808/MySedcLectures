@@ -1,0 +1,33 @@
+﻿@model PizzApp.Models.Pizza
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_Layout";
+}
+
+<h2>Details About Pizza:</h2>
+
+<h3>ID: @Model.Id</h3>
+<h3>Name: @Model.Name</h3>
+<h3>Description: @Model.Description</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pizzaprice in Model.PizzaPrices)
+	{
+        <tr>
+            <td>@pizzaprice.Size</td>
+            <td>@pizzaprice.Price</td>
+        </tr>
+	}
+    </tbody>
+    
+</table>
+
+
