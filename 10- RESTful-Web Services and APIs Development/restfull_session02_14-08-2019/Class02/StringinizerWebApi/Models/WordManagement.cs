@@ -7,8 +7,8 @@ namespace StringinizerWebApi.Models
 {
     public class WordManagement
     {
-        public string FirstWord { get; set; }
-        public string SecondWord { get; set; }
+        public string FullWord { get; set; }
+
     }
 
 }
